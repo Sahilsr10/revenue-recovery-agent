@@ -174,11 +174,6 @@ reminder tier."
 
 ---
 
-## License
-
-MIT — see [LICENSE](LICENSE).
-
 ## Author
 
-Built by [Your Name] for the Razorpay AI Buildathon 2026.
-Contact: [your email / LinkedIn]
+Built by Sahil Srivastava for the Razorpay AI Buildathon 2026.
