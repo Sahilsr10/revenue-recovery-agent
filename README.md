@@ -1,5 +1,3 @@
-<img width="1675" height="819" alt="Screenshot 2026-09-04 at 1 26 25 AM" src="https://github.com/user-attachments/assets/c4563045-ea57-48e0-9cb1-e0c3158eb2de" />
-<img width="1677" height="830" alt="Screenshot 2026-09-04 at 1 25 22 AM" src="https://github.com/user-attachments/assets/720b0caf-3166-47de-a7b4-8a3ae7739ffc" />
 # AI Revenue Recovery Agent
 
 An autonomous agent that detects silent revenue leaks (checkout abandonment,
@@ -138,8 +136,8 @@ live ingestion adapter instead of the synthetic generator.
 
 ## Dashboard
 
-![Dashboard screenshot]
-<img width="1677" height="830" alt="Screenshot 2026-09-04 at 1 25 22 AM" src="https://github.com/user-attachments/assets/720b0caf-3166-47de-a7b4-8a3ae7739ffc" />
+<img width="1604" height="775" alt="Screenshot 2026-09-04 at 1 27 52 AM" src="https://github.com/user-attachments/assets/5833b65c-bfb3-4e1a-8325-6782a2d65555" />
+
 
 *(Add a real screenshot or short GIF of the running Streamlit dashboard here
 before submitting — this is one of the highest-value things a reviewer sees
