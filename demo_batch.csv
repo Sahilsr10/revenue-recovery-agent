@@ -1,0 +1,401 @@
+event_id,event_type,customer_id,customer_email,customer_phone,customer_name,amount,currency,failure_reason,subscription_id,invoice_id,payment_link_id,drop_off_stage,promise_to_pay_date,created_at,is_recoverable
+6e174b0d-b222-4958-a997-5a1ffd91e575,checkout_abandoned,cust_6b5252e3,william46@example.org,4751079911,Advika Jayaraman,13896.46,INR,,,,plink_519554e3,payment_step,,2026-09-03T17:31:23.507407,True
+3e5eec03-8ad6-453a-bde0-9cc6023b1887,checkout_abandoned,cust_13eecdc6,hmann@example.com,+915297516136,Pushti Ravel,21211.71,INR,,,,plink_b6f6dbf1,payment_step,,2026-09-03T17:31:23.507590,True
+45b74b86-6c30-43ad-bc7c-621629c4dcde,payment_failed,cust_978648f8,triyagopal@example.org,06537556464,Fiyaz Sangha,1521.49,INR,issuer declined transaction,,,,,,2026-09-03T17:31:23.507602,True
+0bf3a07e-f74a-4217-b0f8-1dfbe3d35d2a,checkout_abandoned,cust_c73f6e1b,indirakanda@example.net,+919421047095,Watika Mangat,29545.43,INR,,,,plink_25637cc3,payment_step,,2026-09-03T17:31:23.507614,False
+e03467b7-9dc0-4001-a365-5510fd193a2a,subscription_failed,cust_f7860b50,vyadav@example.org,+914294019655,Indali Upadhyay,485.19,INR,subscription_bank_declined,sub_eada79a3,,,,,2026-09-03T17:31:23.507626,True
+8200a7dc-b0c7-440f-b78c-8416421fc2c8,checkout_abandoned,cust_b489d070,ibansal@example.net,5171870262,Libni Doshi,42405.22,INR,,,,plink_d4c3a832,payment_step,,2026-09-03T17:31:23.507635,True
+2dd9266d-8ecd-480e-8337-05bf3316dad9,payment_failed,cust_30974b2b,anshbedi@example.com,+912931839335,Suhani Chand,48661.17,INR,issuer declined transaction,,,,,,2026-09-03T17:31:23.507644,True
+397ef2bf-7934-43c3-a487-da2e851ec753,invoice_overdue,cust_b540b30e,masterjonathan@example.net,01094777520,Anusha Bath,31002.28,INR,invoice_no_response,,inv_781799ff,,,,2026-09-03T17:31:23.507656,False
+50a7b55a-3936-4201-8103-0f224de70277,checkout_abandoned,cust_f264accc,ikakar@example.net,3465787133,Alka Wable,11549.33,INR,,,,plink_e7e646c7,payment_step,,2026-09-03T17:31:23.507665,True
+3d3d8eb0-ec71-4214-8952-57b30c452eea,invoice_overdue,cust_978648f8,triyagopal@example.org,06537556464,Fiyaz Sangha,19130.29,INR,invoice_no_response,,inv_3735262d,,,,2026-09-03T17:31:23.507674,True
+dc16ee0b-45c5-4aa2-b5e0-cfb6c4e54833,payment_failed,cust_f7860b50,vyadav@example.org,+914294019655,Indali Upadhyay,10633.45,INR,insufficient_funds,,,,,,2026-09-03T17:31:23.507680,True
+5428458d-762a-4cf6-8138-0368c08ffd1f,subscription_failed,cust_2e4bebc4,rpatla@example.net,+917947383473,Raksha Bassi,1261.48,INR,bank declined mandate,sub_f0b2a5d1,,,,,2026-09-03T17:31:23.507690,True
+e8495eab-722a-4445-a5f5-4d628d1acfb9,checkout_abandoned,cust_9a36d1ec,wshetty@example.net,7995527177,Faqid Goel,16349.28,INR,,,,plink_6c5a6c93,payment_step,,2026-09-03T17:31:23.507699,False
+60c2418c-c448-4e53-8223-c6ace1e80740,invoice_overdue,cust_978648f8,triyagopal@example.org,06537556464,Fiyaz Sangha,40291.28,INR,broken_promise_to_pay,,inv_3cd5fd7f,,,2026-08-24T17:31:23.507707,2026-09-03T17:31:23.507758,True
+d496a811-4203-4a20-a1a4-2039e8f167dd,checkout_abandoned,cust_1337739e,ssinghal@example.org,+914471349361,Aarnav Rege,25061.72,INR,,,,plink_3d0a5f0c,details_step,,2026-09-03T17:31:23.507770,False
+20acea94-218a-403d-83cb-3af85ecaa611,checkout_abandoned,cust_eededb07,harshilpandya@example.net,09232260256,Ishita Kade,12482.05,INR,,,,plink_9f708368,details_step,,2026-09-03T17:31:23.507779,True
+9a1f1cc0-b9d1-43ac-b978-28a71a6232ca,payment_failed,cust_5d286aa4,rnigam@example.net,+915151864492,Barkha Ram,29259.94,INR,insufficient funds in account,,,,,,2026-09-03T17:31:23.507786,True
+6b097a7e-d087-4a52-a3a5-95c18f294c18,payment_failed,cust_d85c16bd,anjalimore@example.com,00229612018,Amara Balakrishnan,37837.95,INR,insufficient funds in account,,,,,,2026-09-03T17:31:23.507792,False
+d298760e-44a5-4da3-a34b-b011870d8273,subscription_failed,cust_f7860b50,vyadav@example.org,+914294019655,Indali Upadhyay,1867.49,INR,bank declined mandate,sub_d6312a80,,,,,2026-09-03T17:31:23.507801,True
+564947eb-3251-4936-8c3f-8f1dafec869e,payment_failed,cust_e68933a9,zashilghosh@example.org,0205395024,Aradhana Dhillon,48559.7,INR,insufficient_funds,,,,,,2026-09-03T17:31:23.507807,False
+84c3164c-7196-4cfe-a640-11b8ebf7518a,subscription_failed,cust_6b5252e3,william46@example.org,4751079911,Advika Jayaraman,511.35,INR,subscription_bank_declined,sub_893ad232,,,,,2026-09-03T17:31:23.507816,True
+9cfd4483-a301-4193-8d9b-72b447b97fd1,checkout_abandoned,cust_c1101266,ranaakshay@example.com,1754965137,Mekhala Pau,361.62,INR,,,,plink_93364f7e,details_step,,2026-09-03T17:31:23.507824,False
+1533123b-3107-4b07-abc9-b7ecb872f6c2,subscription_failed,cust_f0ede303,indira19@example.net,+912731585149,Charan Mani,2555.67,INR,subscription_bank_declined,sub_4a90cd0c,,,,,2026-09-03T17:31:23.507833,True
+81cda5f0-a783-4907-9e19-a0b497f87b31,subscription_failed,cust_f0ede303,indira19@example.net,+912731585149,Charan Mani,2868.8,INR,declined by issuer,sub_5a5226e6,,,,,2026-09-03T17:31:23.507842,False
+fd972fd0-a810-49c7-83a2-417d1cad7594,invoice_overdue,cust_372f871a,mandervidhi@example.net,4036900343,Hemani Sani,30027.44,INR,broken_promise_to_pay,,inv_2ff3cde4,,,2026-08-28T17:31:23.507848,2026-09-03T17:31:23.507854,True
+9a465db1-00e8-4e94-97be-01343ecbfaf0,checkout_abandoned,cust_9e50aa42,lmishra@example.com,09909133412,Lajita Seshadri,12195.41,INR,,,,plink_8603156a,payment_step,,2026-09-03T17:31:23.507863,True
+7d48f302-82de-49d0-a7f9-5b849e67302c,subscription_failed,cust_c8dcd19f,chatterjeeraagini@example.com,06701065133,Niharika Gupta,2343.34,INR,declined by issuer,sub_f4124360,,,,,2026-09-03T17:31:23.507871,False
+d1dc95b6-b9ef-409d-adb6-d5560576e481,subscription_failed,cust_be0f051b,hemaljani@example.net,4874016400,Anita Manda,2641.81,INR,declined by issuer,sub_c9525185,,,,,2026-09-03T17:31:23.507881,True
+be363816-abd6-44fc-8f63-4595e253c340,invoice_overdue,cust_e8dd5e5a,saideo@example.net,08842474517,Eta Sagar,46459.89,INR,invoice_no_response,,inv_0534a101,,,,2026-09-03T17:31:23.507890,False
+34c8ca09-fad9-4116-a542-3a9d5cf30600,payment_failed,cust_9e50aa42,lmishra@example.com,09909133412,Lajita Seshadri,33650.01,INR,issuer declined transaction,,,,,,2026-09-03T17:31:23.507898,True
+690e4a45-c662-483a-b2d4-5fcdd3eaba6e,checkout_abandoned,cust_aba4fc03,surinikita@example.com,+915377351585,Mohammed Sachdeva,11389.93,INR,,,,plink_0b251279,payment_step,,2026-09-03T17:31:23.507907,True
+8208bb7d-b05d-4e8e-9e45-ac3977a9f313,checkout_abandoned,cust_a9e27ba9,mdayal@example.net,+914865281685,Inaya Mukherjee,3735.46,INR,,,,plink_5f90bed6,payment_step,,2026-09-03T17:31:23.507915,True
+645513b3-d586-4270-82ea-d3e0271f6a6a,invoice_overdue,cust_f264accc,ikakar@example.net,3465787133,Alka Wable,43009.84,INR,broken_promise_to_pay,,inv_5b6a8102,,,2026-08-26T17:31:23.507921,2026-09-03T17:31:23.507926,True
+3a87e3c1-7798-4fa1-8c38-4a3637d1086f,payment_failed,cust_3b33f3d8,sachdevanikita@example.com,7603669096,Michael Kala,36222.96,INR,issuer declined transaction,,,,,,2026-09-03T17:31:23.507931,False
+37c7b2bc-d299-4a14-8a34-753301f91286,checkout_abandoned,cust_6bc4123e,gpathak@example.net,+917839084700,Devansh Soni,23754.05,INR,,,,plink_3dba6da8,payment_step,,2026-09-03T17:31:23.507939,True
+32f6604d-24fe-491e-9570-e9c10aeab4a3,subscription_failed,cust_e7067ef4,ramakrishnanalka@example.com,06872343098,Nitesh Raghavan,2084.42,INR,expired_card,sub_1a89b71e,,,,,2026-09-03T17:31:23.507948,True
+13c62715-d7a0-49d7-9c49-f262eaa8be90,checkout_abandoned,cust_e7067ef4,ramakrishnanalka@example.com,06872343098,Nitesh Raghavan,36465.04,INR,,,,plink_c1b5b5ca,payment_step,,2026-09-03T17:31:23.507956,False
+3d4b5b1f-6fd5-43b0-9f56-debf305fcee6,checkout_abandoned,cust_5e6fea07,hritik90@example.com,6631931491,Ishwar Gade,26907.03,INR,,,,plink_5a304528,payment_step,,2026-09-03T17:31:23.507964,True
+b4fa0570-d447-4381-b0ae-39be7bf8d266,payment_failed,cust_17d2582e,daminipillay@example.com,8568557444,Timothy Ravel,43749.4,INR,issuer declined transaction,,,,,,2026-09-03T17:31:23.507970,True
+a9e9da86-c5db-441e-bef2-9e416d80a117,checkout_abandoned,cust_e7067ef4,ramakrishnanalka@example.com,06872343098,Nitesh Raghavan,49964.27,INR,,,,plink_a48e40f1,payment_step,,2026-09-03T17:31:23.507978,False
+c5f14e97-a917-4ed6-9088-4ba9e0db63e1,checkout_abandoned,cust_04f64d86,bariaazaan@example.org,+910923271937,Inaya Kapur,24384.93,INR,,,,plink_af475b49,details_step,,2026-09-03T17:31:23.507986,True
+c597625e-277a-4f66-b132-228a0435b409,checkout_abandoned,cust_c333e861,hbahl@example.com,03039117182,Aadi Naik,307.34,INR,,,,plink_7a8104de,details_step,,2026-09-03T17:31:23.507994,True
+e5d0c0e9-8112-458c-a685-696a27b35c4f,payment_failed,cust_314d3441,rehaankalita@example.net,04989413435,Jagdish Wason,47874.42,INR,issuer declined transaction,,,,,,2026-09-03T17:31:23.508000,False
+c1e32d5e-7ce2-4b34-a7b5-8ce61af2ff5f,checkout_abandoned,cust_816bcb9f,qushiseth@example.org,05766156545,Hardik Contractor,14976.05,INR,,,,plink_2285b2ef,payment_step,,2026-09-03T17:31:23.508008,False
+8824ded1-db5c-4e53-b2b4-9d3d343f79a3,checkout_abandoned,cust_1337739e,ssinghal@example.org,+914471349361,Aarnav Rege,29292.04,INR,,,,plink_f1901b7e,payment_step,,2026-09-03T17:31:23.508016,True
+edcbb816-c593-4bde-9906-661d4e94670a,invoice_overdue,cust_c333e861,hbahl@example.com,03039117182,Aadi Naik,4189.55,INR,invoice_no_response,,inv_339b77a8,,,,2026-09-03T17:31:23.508023,True
+db903a59-34d7-4817-b6e7-db305535d96f,payment_failed,cust_04f64d86,bariaazaan@example.org,+910923271937,Inaya Kapur,47091.49,INR,issuer declined transaction,,,,,,2026-09-03T17:31:23.508029,True
+ef8d47c8-a84f-4ad0-a993-7d36b05e14f4,checkout_abandoned,cust_2e25b5ee,upkaardevan@example.org,+914188805929,Harita Sunder,4282.77,INR,,,,plink_e2c328aa,details_step,,2026-09-03T17:31:23.508037,True
+c1aec74c-d28f-444d-b208-83e72ef1242b,checkout_abandoned,cust_f7294951,uloyal@example.org,+914737996507,Veda Shroff,35866.35,INR,,,,plink_4f612217,details_step,,2026-09-03T17:31:23.508044,True
+b3ad59f4-241e-479e-b1d4-9c22eac89a34,subscription_failed,cust_be0f051b,hemaljani@example.net,4874016400,Anita Manda,225.08,INR,expired_card,sub_d0be73ee,,,,,2026-09-03T17:31:23.508053,True
+dca78e70-b0e0-43cb-b524-89c0307ed7f3,invoice_overdue,cust_1578d709,rajeshrichand@example.org,05060685361,Anjali Sengupta,49805.6,INR,broken_promise_to_pay,,inv_095ffa81,,,2026-08-29T17:31:23.508058,2026-09-03T17:31:23.508063,True
+e69bb710-ed20-42ab-943e-a7a2afd5d1a7,invoice_overdue,cust_be0f051b,hemaljani@example.net,4874016400,Anita Manda,44067.04,INR,broken_promise_to_pay,,inv_493e904d,,,2026-08-31T17:31:23.508068,2026-09-03T17:31:23.508073,False
+13039c98-2091-4074-a1f1-87f415ee6c11,invoice_overdue,cust_f1738856,pmittal@example.com,+912004711382,Timothy Bhatnagar,35236.29,INR,invoice_no_response,,inv_0c3ce284,,,,2026-09-03T17:31:23.508080,True
+9b3476e8-debd-4439-89ec-935348132ca9,checkout_abandoned,cust_372f871a,mandervidhi@example.net,4036900343,Hemani Sani,40891.79,INR,,,,plink_45f18619,payment_step,,2026-09-03T17:31:23.508089,True
+8b8bcab8-d9b4-4067-b49e-1a4c097748c5,checkout_abandoned,cust_a319dcb4,handra@example.org,2805982620,Neel Sathe,44507.69,INR,,,,plink_6fdc0bad,payment_step,,2026-09-03T17:31:23.508096,False
+d1f49d9a-3a44-466a-914d-7d57dc369b9f,checkout_abandoned,cust_7cd0129d,ati94@example.net,+918313678377,Isha Kuruvilla,10689.36,INR,,,,plink_7092947d,details_step,,2026-09-03T17:31:23.508104,True
+4420b389-9de7-4a12-96cc-2a90499af1e9,payment_failed,cust_f0ede303,indira19@example.net,+912731585149,Charan Mani,45285.76,INR,insufficient_funds,,,,,,2026-09-03T17:31:23.508110,False
+f1bd3161-908c-44ba-8863-952112c00ad0,invoice_overdue,cust_e8dd5e5a,saideo@example.net,08842474517,Eta Sagar,2395.52,INR,broken_promise_to_pay,,inv_56cb1ab0,,,2026-08-29T17:31:23.508115,2026-09-03T17:31:23.508120,True
+79e52491-2d57-4e0b-964b-9c121b56b4bc,subscription_failed,cust_f7860b50,vyadav@example.org,+914294019655,Indali Upadhyay,512.25,INR,expired_card,sub_b12b6680,,,,,2026-09-03T17:31:23.508128,True
+1ab8f864-4fa6-46cf-84ab-52fd436404e2,payment_failed,cust_bc2cbb0d,rajabalvan@example.com,+913754330365,Amara Dutta,41762.83,INR,insufficient funds in account,,,,,,2026-09-03T17:31:23.508136,True
+16fe6882-1aad-47d6-b010-c84d7fe9c7bc,checkout_abandoned,cust_c1101266,ranaakshay@example.com,1754965137,Mekhala Pau,15551.27,INR,,,,plink_cc1b4157,payment_step,,2026-09-03T17:31:23.508144,False
+72119137-19ee-4520-917c-4671e3d7955f,checkout_abandoned,cust_7c16128d,deepaatwal@example.net,01317127484,Ayush Khatri,12626.58,INR,,,,plink_15260718,details_step,,2026-09-03T17:31:23.508152,True
+c2f365f4-5aee-4079-b99c-9b7a2b952637,subscription_failed,cust_1578d709,rajeshrichand@example.org,05060685361,Anjali Sengupta,2932.38,INR,card expired,sub_6e3c4532,,,,,2026-09-03T17:31:23.508161,True
+ab718c48-0fdf-4a41-bff7-14d20f7bface,invoice_overdue,cust_5380b904,osharaghavan@example.net,2994680443,Chakrika Datta,1434.36,INR,broken_promise_to_pay,,inv_2e326567,,,2026-08-27T17:31:23.508166,2026-09-03T17:31:23.508170,False
+67927662-2128-480d-b3ab-99036e2004e0,checkout_abandoned,cust_5e6fea07,hritik90@example.com,6631931491,Ishwar Gade,39411.25,INR,,,,plink_1a43db54,payment_step,,2026-09-03T17:31:23.508179,True
+27211ac3-6c3a-4a10-ba59-2033b9fe833e,checkout_abandoned,cust_6bc4123e,gpathak@example.net,+917839084700,Devansh Soni,40866.01,INR,,,,plink_4baf0f5e,details_step,,2026-09-03T17:31:23.508186,True
+239e855f-e7cf-45cb-91c3-adc442b9c16f,checkout_abandoned,cust_978648f8,triyagopal@example.org,06537556464,Fiyaz Sangha,33069.65,INR,,,,plink_b7b8c1a5,details_step,,2026-09-03T17:31:23.508194,True
+36c573e7-983d-4c00-bb7b-babe611e33da,invoice_overdue,cust_f264accc,ikakar@example.net,3465787133,Alka Wable,14100.42,INR,broken_promise_to_pay,,inv_71a3fad2,,,2026-08-25T17:31:23.508199,2026-09-03T17:31:23.508205,True
+decbbed7-7f2f-46a7-84fe-45fc446b5dcb,invoice_overdue,cust_9918ee46,atharv13@example.net,9049027874,Rachana Naidu,5944.02,INR,broken_promise_to_pay,,inv_ba108217,,,2026-08-29T17:31:23.508210,2026-09-03T17:31:23.508215,False
+41b977c7-29ee-41ae-a5b1-be3940a5f05a,checkout_abandoned,cust_50c187fc,divyakala@example.net,06724238849,Amrita Bhatti,21841.28,INR,,,,plink_9d66e815,details_step,,2026-09-03T17:31:23.508223,False
+7bffd756-2190-4102-8d80-58dd5ad8323d,subscription_failed,cust_c1101266,ranaakshay@example.com,1754965137,Mekhala Pau,731.22,INR,declined by issuer,sub_a3b442bd,,,,,2026-09-03T17:31:23.508231,True
+8971af09-bbed-4e56-be48-17915af0ecfc,subscription_failed,cust_663f1c97,wchand@example.org,+912269166978,Theodore Devi,2122.2,INR,declined by issuer,sub_0eaf04b5,,,,,2026-09-03T17:31:23.508239,False
+c1a5707f-86fb-4c4c-8aee-8d7c6a8245ca,payment_failed,cust_b227462c,shankiaan@example.com,8895798687,Chandresh Krish,3684.7,INR,bank_issuer_error,,,,,,2026-09-03T17:31:23.508245,True
+f4986551-4936-4e60-b9f5-a9c193e40a54,payment_failed,cust_1578d709,rajeshrichand@example.org,05060685361,Anjali Sengupta,42431.16,INR,bank_issuer_error,,,,,,2026-09-03T17:31:23.508250,False
+9dbbef11-7233-4c0c-92b7-aa9b2eb1f642,payment_failed,cust_f0ede303,indira19@example.net,+912731585149,Charan Mani,20537.97,INR,bank_issuer_error,,,,,,2026-09-03T17:31:23.508255,True
+41638e79-6c6e-4dc8-957c-38855b5d92b5,checkout_abandoned,cust_1422373f,gauriganguly@example.org,1883552312,Dayita Nori,21138.23,INR,,,,plink_67fd64c4,payment_step,,2026-09-03T17:31:23.508263,False
+27edd2a5-1609-4ce5-a8d4-e63abdcc6a27,subscription_failed,cust_92070158,hthakkar@example.com,+913924075818,Triya Manda,1002.36,INR,subscription_bank_declined,sub_bff9507d,,,,,2026-09-03T17:31:23.508271,False
+0bf90fa2-b3be-4e87-a438-c491117b127f,subscription_failed,cust_c1101266,ranaakshay@example.com,1754965137,Mekhala Pau,1437.05,INR,bank declined mandate,sub_07f8d4f0,,,,,2026-09-03T17:31:23.508282,True
+46a0d3da-a373-4ecf-a886-932464e80489,payment_failed,cust_3b33f3d8,sachdevanikita@example.com,7603669096,Michael Kala,39728.02,INR,insufficient funds in account,,,,,,2026-09-03T17:31:23.508287,False
+b1d3aca4-b8d5-450b-9e80-f8dbe469d92c,checkout_abandoned,cust_c8dcd19f,chatterjeeraagini@example.com,06701065133,Niharika Gupta,33259.92,INR,,,,plink_ad973b67,payment_step,,2026-09-03T17:31:23.508295,True
+01052a0a-5eec-4052-9f6b-29f4806d9a49,subscription_failed,cust_04f64d86,bariaazaan@example.org,+910923271937,Inaya Kapur,328.4,INR,expired_card,sub_20509c62,,,,,2026-09-03T17:31:23.508304,True
+5822caf9-4a48-49b5-a5f2-18924364aaff,subscription_failed,cust_6bc4123e,gpathak@example.net,+917839084700,Devansh Soni,743.42,INR,declined by issuer,sub_a52964ff,,,,,2026-09-03T17:31:23.508312,True
+f422fabe-1e6d-4bf4-824e-9ce42c116458,payment_failed,cust_f81dbaa1,narasimhanlajita@example.com,7809134316,Hamsini Rao,12350.43,INR,insufficient_funds,,,,,,2026-09-03T17:31:23.508317,True
+63c0e765-9241-4a3c-942f-e397726b6362,subscription_failed,cust_0ea2622b,daksheshtrivedi@example.org,+911913619399,Vansha Thakkar,1499.74,INR,declined by issuer,sub_f31046dc,,,,,2026-09-03T17:31:23.508326,False
+44b272d7-530a-4a96-a0b6-2a969a76c12a,checkout_abandoned,cust_9a36d1ec,wshetty@example.net,7995527177,Faqid Goel,42447.15,INR,,,,plink_2747b93c,details_step,,2026-09-03T17:31:23.508333,True
+d868e685-5393-4d44-aa22-b6b1c0aa6e5d,invoice_overdue,cust_372f871a,mandervidhi@example.net,4036900343,Hemani Sani,29853.53,INR,invoice_no_response,,inv_5ef787b8,,,,2026-09-03T17:31:23.508341,False
+3136dc40-39ae-4dd7-8965-3451c0468dec,invoice_overdue,cust_92070158,hthakkar@example.com,+913924075818,Triya Manda,44622.61,INR,invoice_no_response,,inv_13aec376,,,,2026-09-03T17:31:23.508349,True
+f0fce772-3e42-4d5e-8f3d-0b2ca31f730f,invoice_overdue,cust_aba4fc03,surinikita@example.com,+915377351585,Mohammed Sachdeva,37234.04,INR,broken_promise_to_pay,,inv_5df06e8c,,,2026-08-30T17:31:23.508354,2026-09-03T17:31:23.508358,True
+44e628ca-0c04-494e-83f8-63f9a5179079,subscription_failed,cust_17d2582e,daminipillay@example.com,8568557444,Timothy Ravel,1430.64,INR,subscription_bank_declined,sub_4758367b,,,,,2026-09-03T17:31:23.508366,True
+6db635d8-7e08-4fc7-9886-fcb99575e3f8,checkout_abandoned,cust_314d3441,rehaankalita@example.net,04989413435,Jagdish Wason,16925.21,INR,,,,plink_06a241af,payment_step,,2026-09-03T17:31:23.508374,False
+83a89cc0-882b-4b2c-9efd-675df17194c9,checkout_abandoned,cust_a319dcb4,handra@example.org,2805982620,Neel Sathe,19275.16,INR,,,,plink_848af440,payment_step,,2026-09-03T17:31:23.508382,True
+91edb3a4-11bd-4d00-8b75-42b53e47178b,payment_failed,cust_f264accc,ikakar@example.net,3465787133,Alka Wable,16677.89,INR,insufficient_funds,,,,,,2026-09-03T17:31:23.508389,True
+b640410d-bd11-4221-8336-8b1592a746ea,invoice_overdue,cust_dc8aee30,aradhanaverma@example.com,3471434558,Shivani Lad,19595.95,INR,invoice_no_response,,inv_1e2595b8,,,,2026-09-03T17:31:23.508396,False
+0dc2baa1-4e4e-4bee-a834-ef12c71bf2c1,invoice_overdue,cust_bacfb3d0,memonjanaki@example.net,+911034131647,Jeet Radhakrishnan,38326.61,INR,broken_promise_to_pay,,inv_b43bd27f,,,2026-08-28T17:31:23.508401,2026-09-03T17:31:23.508406,True
+2e40a9ca-6b39-4212-b7bd-5a8f4b1e74ab,subscription_failed,cust_7a4c75d4,kborah@example.net,0229413186,Dhruv Rattan,1706.02,INR,bank declined mandate,sub_9ca3fbb3,,,,,2026-09-03T17:31:23.508414,False
+ad751556-d436-4544-93fa-86bf6b210eb5,subscription_failed,cust_13eecdc6,hmann@example.com,+915297516136,Pushti Ravel,1419.34,INR,subscription_bank_declined,sub_ffa623d0,,,,,2026-09-03T17:31:23.508424,True
+0108a5e5-641d-49ff-a41d-5b63a36db511,payment_failed,cust_29a3b2e9,ekbal92@example.net,3276483503,Isha Kadakia,33509.91,INR,insufficient funds in account,,,,,,2026-09-03T17:31:23.508430,False
+ee0858c6-2512-4474-87f7-f48d695e2ebb,invoice_overdue,cust_e68933a9,zashilghosh@example.org,0205395024,Aradhana Dhillon,49039.95,INR,invoice_no_response,,inv_22bf18f5,,,,2026-09-03T17:31:23.508438,True
+f6adfc36-567c-45f8-b0df-19de442d36c1,subscription_failed,cust_a9e27ba9,mdayal@example.net,+914865281685,Inaya Mukherjee,2626.18,INR,card expired,sub_2c33350c,,,,,2026-09-03T17:31:23.508446,True
+954a936c-fe22-4acb-b679-408b4317abdd,checkout_abandoned,cust_9b4e2c24,gkala@example.com,2148951343,Udyati Sathe,19079.37,INR,,,,plink_ff4c96d6,details_step,,2026-09-03T17:31:23.508454,True
+c4d4ef41-e36b-4405-a428-6df362292eae,subscription_failed,cust_6f962882,nilima55@example.net,+912567468071,Gavin Singhal,905.36,INR,bank declined mandate,sub_f7b217c7,,,,,2026-09-03T17:31:23.508462,False
+99205ba5-97ce-4e66-9319-93d7096109a6,payment_failed,cust_c8dcd19f,chatterjeeraagini@example.com,06701065133,Niharika Gupta,37501.41,INR,bank_issuer_error,,,,,,2026-09-03T17:31:23.508467,True
+dca09aa8-e87a-4861-a97b-88e43e7729a5,subscription_failed,cust_5a0cdd7c,vinayakanda@example.com,07065627298,Madhavi Saini,2857.91,INR,expired_card,sub_aaf78c67,,,,,2026-09-03T17:31:23.508475,True
+fddf39de-e048-4132-ad2b-db7f440b4f62,invoice_overdue,cust_b227462c,shankiaan@example.com,8895798687,Chandresh Krish,31142.52,INR,broken_promise_to_pay,,inv_8ccc9cea,,,2026-09-01T17:31:23.508480,2026-09-03T17:31:23.508485,True
+f1eef7ad-a5e0-45d7-924f-9ceb21bad7d1,invoice_overdue,cust_46510367,mukherjeetriya@example.com,+910541199867,Indira Tripathi,23358.69,INR,broken_promise_to_pay,,inv_4cc9f5f2,,,2026-08-24T17:31:23.508490,2026-09-03T17:31:23.508495,True
+5f4791c8-4798-4ee8-aac2-210ad99ff1e5,invoice_overdue,cust_2e4bebc4,rpatla@example.net,+917947383473,Raksha Bassi,35974.19,INR,broken_promise_to_pay,,inv_b5a5f8e6,,,2026-08-29T17:31:23.508501,2026-09-03T17:31:23.508505,False
+d17e2db4-2221-4122-b52d-19f508fbc050,subscription_failed,cust_0ea2622b,daksheshtrivedi@example.org,+911913619399,Vansha Thakkar,1309.63,INR,bank declined mandate,sub_2c913a7c,,,,,2026-09-03T17:31:23.508514,True
+487bdffe-2c28-43b0-95cd-69b2c8111e74,checkout_abandoned,cust_b227462c,shankiaan@example.com,8895798687,Chandresh Krish,34592.6,INR,,,,plink_3967e60a,payment_step,,2026-09-03T17:31:23.508523,True
+092b72a4-77c5-4056-b3f4-6d92cc768ae5,invoice_overdue,cust_7a4c75d4,kborah@example.net,0229413186,Dhruv Rattan,30100.5,INR,invoice_no_response,,inv_cac4d0eb,,,,2026-09-03T17:31:23.508531,True
+5bc56255-0f67-4f6b-a997-b539a1d5a0bb,payment_failed,cust_663f1c97,wchand@example.org,+912269166978,Theodore Devi,21533.23,INR,issuer declined transaction,,,,,,2026-09-03T17:31:23.508539,True
+429aff0d-d1e4-4742-803f-0d82836a83e2,checkout_abandoned,cust_6f962882,nilima55@example.net,+912567468071,Gavin Singhal,21118.93,INR,,,,plink_7e7838c9,details_step,,2026-09-03T17:31:23.508547,True
+a4c655ae-8ce7-48dc-9559-bbae3130d87a,subscription_failed,cust_faf14ff0,leelahalder@example.net,2146584044,Yagnesh Shan,692.18,INR,bank declined mandate,sub_9280c5aa,,,,,2026-09-03T17:31:23.508555,False
+358fef26-754e-426d-a8b2-993730cd571e,invoice_overdue,cust_74222167,ekta99@example.org,+912290147679,Nakul Pingle,13650.1,INR,invoice_no_response,,inv_fba6abf7,,,,2026-09-03T17:31:23.508563,False
+7657dc8f-0364-4923-8d1c-38bbbeb71d89,payment_failed,cust_66d06371,fborah@example.com,2124998569,Hritik Swaminathan,41321.58,INR,bank_issuer_error,,,,,,2026-09-03T17:31:23.508568,True
+8abe607d-7561-421b-8541-9a96b5c78599,invoice_overdue,cust_5e6fea07,hritik90@example.com,6631931491,Ishwar Gade,4515.81,INR,broken_promise_to_pay,,inv_e25df9a8,,,2026-08-26T17:31:23.508573,2026-09-03T17:31:23.508578,False
+bc838be7-75ac-4280-8d81-cd2de97947ed,subscription_failed,cust_46510367,mukherjeetriya@example.com,+910541199867,Indira Tripathi,708.15,INR,subscription_bank_declined,sub_65edcfe3,,,,,2026-09-03T17:31:23.508586,True
+b761e948-3b54-4297-9f25-4aaf7277c5c5,payment_failed,cust_3b33f3d8,sachdevanikita@example.com,7603669096,Michael Kala,13065.95,INR,issuer declined transaction,,,,,,2026-09-03T17:31:23.508591,True
+a26e2e4d-9a9b-4f67-a613-1adac85db397,subscription_failed,cust_17d2582e,daminipillay@example.com,8568557444,Timothy Ravel,2215.21,INR,card expired,sub_7a89cbeb,,,,,2026-09-03T17:31:23.508600,True
+b224d57b-5ef6-43ea-bc0f-33eccc6acbc8,subscription_failed,cust_816bcb9f,qushiseth@example.org,05766156545,Hardik Contractor,1453.89,INR,bank declined mandate,sub_68d0a2a8,,,,,2026-09-03T17:31:23.508608,True
+32febaea-70b7-4e60-856f-ee8e6704123d,checkout_abandoned,cust_bacfb3d0,memonjanaki@example.net,+911034131647,Jeet Radhakrishnan,11235.5,INR,,,,plink_20156a72,details_step,,2026-09-03T17:31:23.508615,True
+336d0de8-f4a8-4695-a546-0f5f07a5a185,payment_failed,cust_5d286aa4,rnigam@example.net,+915151864492,Barkha Ram,27762.95,INR,issuer declined transaction,,,,,,2026-09-03T17:31:23.508621,True
+b7232f43-5010-42aa-8afc-f59e0aed3f89,payment_failed,cust_9918ee46,atharv13@example.net,9049027874,Rachana Naidu,22796.51,INR,insufficient funds in account,,,,,,2026-09-03T17:31:23.508627,True
+9b3f0fe7-7c81-4460-8802-3add49cc09c5,subscription_failed,cust_43e42caf,kalamane@example.org,08498084124,Ikshita Biswas,735.31,INR,card expired,sub_12fc7a87,,,,,2026-09-03T17:31:23.508637,False
+889e7fd3-a15b-4beb-bdc0-d7b632286314,checkout_abandoned,cust_66d06371,fborah@example.com,2124998569,Hritik Swaminathan,29561.43,INR,,,,plink_8471b4b0,details_step,,2026-09-03T17:31:23.508645,False
+09000e95-270c-4ced-9bbe-cd290877fdb4,invoice_overdue,cust_e7067ef4,ramakrishnanalka@example.com,06872343098,Nitesh Raghavan,14953.07,INR,broken_promise_to_pay,,inv_d43cdd6d,,,2026-08-25T17:31:23.508650,2026-09-03T17:31:23.508654,True
+69ec4440-a89c-4936-9537-32be4702e9b1,checkout_abandoned,cust_be0f051b,hemaljani@example.net,4874016400,Anita Manda,48719.89,INR,,,,plink_96792482,payment_step,,2026-09-03T17:31:23.508662,True
+c35e6d8b-be88-4ec7-988c-65f9a6157d7f,checkout_abandoned,cust_816bcb9f,qushiseth@example.org,05766156545,Hardik Contractor,810.82,INR,,,,plink_21084dd9,details_step,,2026-09-03T17:31:23.508670,True
+7a2af6a1-21c4-4dc9-84d5-6e74181e98a5,payment_failed,cust_f1738856,pmittal@example.com,+912004711382,Timothy Bhatnagar,48281.78,INR,bank network timeout,,,,,,2026-09-03T17:31:23.508676,True
+97af4c9c-145a-4538-9558-3dd70db58431,invoice_overdue,cust_6b5252e3,william46@example.org,4751079911,Advika Jayaraman,20155.23,INR,invoice_no_response,,inv_de431e06,,,,2026-09-03T17:31:23.508683,True
+78231e4e-786f-46c9-8a68-1d1888649997,checkout_abandoned,cust_dc5c0eed,harini14@example.com,+917048281489,Ishwar Yadav,40594.88,INR,,,,plink_84a2576c,payment_step,,2026-09-03T17:31:23.508693,False
+5ea41317-e889-42f6-ab45-d098903e2297,checkout_abandoned,cust_5e6fea07,hritik90@example.com,6631931491,Ishwar Gade,38269.28,INR,,,,plink_2976aab2,payment_step,,2026-09-03T17:31:23.508701,True
+6e35be6c-51e2-438e-b07d-ef72f7f316f7,payment_failed,cust_74222167,ekta99@example.org,+912290147679,Nakul Pingle,45443.52,INR,issuer declined transaction,,,,,,2026-09-03T17:31:23.508707,True
+a77cc141-3b90-4eca-ada1-0386efb7a5dd,payment_failed,cust_e8dd5e5a,saideo@example.net,08842474517,Eta Sagar,31127.16,INR,insufficient_funds,,,,,,2026-09-03T17:31:23.508712,True
+9aff6ee4-7eaa-44fa-9c3d-5bd4b67423d4,subscription_failed,cust_dc8aee30,aradhanaverma@example.com,3471434558,Shivani Lad,685.68,INR,card expired,sub_39b86bb2,,,,,2026-09-03T17:31:23.508721,True
+1c2029bd-b38a-4941-8e5c-ed827442d8f7,checkout_abandoned,cust_969b6662,bhargavaveer@example.org,+915183473829,Thomas Amble,20544.18,INR,,,,plink_84d67c4f,details_step,,2026-09-03T17:31:23.508728,True
+344c9c8a-cf4c-42b8-9e39-a959f5f7e7e0,checkout_abandoned,cust_b540b30e,masterjonathan@example.net,01094777520,Anusha Bath,14547.62,INR,,,,plink_143029a9,details_step,,2026-09-03T17:31:23.508737,True
+301c7621-de92-4379-9b5b-9f7e65bf32e1,subscription_failed,cust_969b6662,bhargavaveer@example.org,+915183473829,Thomas Amble,2050.31,INR,declined by issuer,sub_f4d375c1,,,,,2026-09-03T17:31:23.508746,False
+e18c36cc-3c36-4058-a598-880befed2267,payment_failed,cust_b227462c,shankiaan@example.com,8895798687,Chandresh Krish,27319.21,INR,bank_issuer_error,,,,,,2026-09-03T17:31:23.508751,True
+155a4faa-0392-4219-b179-0d5048a445ce,checkout_abandoned,cust_eededb07,harshilpandya@example.net,09232260256,Ishita Kade,8462.95,INR,,,,plink_a0017720,details_step,,2026-09-03T17:31:23.508759,True
+42214b66-9fde-4432-801b-98ab44749b4a,checkout_abandoned,cust_f1738856,pmittal@example.com,+912004711382,Timothy Bhatnagar,34496.16,INR,,,,plink_17eaec83,details_step,,2026-09-03T17:31:23.508767,True
+f219b0e1-c0ce-4c4f-948d-f2e9da67c80d,payment_failed,cust_f0ede303,indira19@example.net,+912731585149,Charan Mani,22000.39,INR,bank network timeout,,,,,,2026-09-03T17:31:23.508772,True
+86e163b0-da27-41e6-b2a1-e891bd91372d,subscription_failed,cust_26242b40,gandhidamyanti@example.net,9471746488,Lucky Bora,1842.94,INR,declined by issuer,sub_9780c215,,,,,2026-09-03T17:31:23.508781,True
+a8f6363c-0857-4a58-bd82-aad4d01a04f9,invoice_overdue,cust_bacfb3d0,memonjanaki@example.net,+911034131647,Jeet Radhakrishnan,33679.62,INR,broken_promise_to_pay,,inv_2bd3cdcd,,,2026-08-31T17:31:23.508785,2026-09-03T17:31:23.508790,True
+2c2b107e-55b7-4043-9851-372954fa3658,payment_failed,cust_6bc4123e,gpathak@example.net,+917839084700,Devansh Soni,22223.02,INR,issuer declined transaction,,,,,,2026-09-03T17:31:23.508795,True
+bf858e32-3699-4b48-af00-f45c88a88186,subscription_failed,cust_c1101266,ranaakshay@example.com,1754965137,Mekhala Pau,1342.37,INR,subscription_bank_declined,sub_e6e987ca,,,,,2026-09-03T17:31:23.508803,True
+8fa39b48-0c75-4bdb-b50b-0baf0ab28201,subscription_failed,cust_26242b40,gandhidamyanti@example.net,9471746488,Lucky Bora,1006.01,INR,bank declined mandate,sub_ec86a890,,,,,2026-09-03T17:31:23.508811,True
+936c3740-e4b7-475a-ba98-3eb8c7ac0f74,invoice_overdue,cust_deef580f,vincentshenoy@example.net,07407482175,Wridesh Tank,27594.81,INR,broken_promise_to_pay,,inv_dd20c3bf,,,2026-08-28T17:31:23.508816,2026-09-03T17:31:23.508821,True
+ebd60290-e32f-46bf-a8b4-b8cfd79a39d9,invoice_overdue,cust_6b5252e3,william46@example.org,4751079911,Advika Jayaraman,20327.92,INR,invoice_no_response,,inv_f2d3f761,,,,2026-09-03T17:31:23.508830,True
+a4da245f-2a98-42a2-bed8-d1c5c0ffcc45,payment_failed,cust_13eecdc6,hmann@example.com,+915297516136,Pushti Ravel,2899.36,INR,issuer declined transaction,,,,,,2026-09-03T17:31:23.508835,True
+a7eea614-f38c-4cc8-ade3-8d9f57d4848d,subscription_failed,cust_ec48bf55,chanderrachana@example.org,5280988516,Ekalinga Chand,565.84,INR,declined by issuer,sub_43c07d43,,,,,2026-09-03T17:31:23.508845,True
+31b8db7d-c028-4ca5-a980-1edeae22c6b1,payment_failed,cust_314d3441,rehaankalita@example.net,04989413435,Jagdish Wason,34972.85,INR,issuer declined transaction,,,,,,2026-09-03T17:31:23.508851,True
+7d7aacb1-40a4-4838-9399-ef5116717cfc,subscription_failed,cust_04f64d86,bariaazaan@example.org,+910923271937,Inaya Kapur,459.99,INR,bank declined mandate,sub_92779574,,,,,2026-09-03T17:31:23.508859,True
+aba2b466-6acb-49fb-8f42-408c2fb624c8,payment_failed,cust_6b5252e3,william46@example.org,4751079911,Advika Jayaraman,6049.81,INR,bank network timeout,,,,,,2026-09-03T17:31:23.508864,False
+231c58c4-0d47-4c0c-9ed0-e16883e9afb8,payment_failed,cust_b540b30e,masterjonathan@example.net,01094777520,Anusha Bath,13816.56,INR,bank network timeout,,,,,,2026-09-03T17:31:23.508871,False
+dcc1750c-27f7-4556-ae6c-19cc98ae4f0e,payment_failed,cust_5e6fea07,hritik90@example.com,6631931491,Ishwar Gade,7403.17,INR,issuer declined transaction,,,,,,2026-09-03T17:31:23.508877,True
+d07ad7dc-8cc7-4f82-b197-485e87bef3af,subscription_failed,cust_d85c16bd,anjalimore@example.com,00229612018,Amara Balakrishnan,1150.65,INR,bank declined mandate,sub_07c0d116,,,,,2026-09-03T17:31:23.508885,True
+78dd7c88-8053-465f-ad79-1fd7df294f41,checkout_abandoned,cust_f0ede303,indira19@example.net,+912731585149,Charan Mani,327.75,INR,,,,plink_8baaf744,details_step,,2026-09-03T17:31:23.508893,False
+a2cff724-1ee3-4021-aada-241c379b5be7,payment_failed,cust_bc2cbb0d,rajabalvan@example.com,+913754330365,Amara Dutta,24320.2,INR,issuer declined transaction,,,,,,2026-09-03T17:31:23.508898,True
+30fa67a8-c670-4b7e-9bf8-68874c406356,payment_failed,cust_b489d070,ibansal@example.net,5171870262,Libni Doshi,16224.51,INR,insufficient funds in account,,,,,,2026-09-03T17:31:23.508904,True
+220ea451-2693-4b71-8732-5981814845f6,payment_failed,cust_cab4923b,vamakshi82@example.org,01518203778,Shivani Guha,42829.45,INR,bank_issuer_error,,,,,,2026-09-03T17:31:23.508909,True
+70b9e5c1-8782-4d07-8730-1af4e4e4b301,subscription_failed,cust_6bc4123e,gpathak@example.net,+917839084700,Devansh Soni,1585.92,INR,card expired,sub_4d560a3d,,,,,2026-09-03T17:31:23.508919,True
+4c877e07-520a-4363-9a7c-6ff22eb5888f,checkout_abandoned,cust_50c187fc,divyakala@example.net,06724238849,Amrita Bhatti,48274.61,INR,,,,plink_ceae71cf,payment_step,,2026-09-03T17:31:23.508927,True
+6b3497fd-21a2-4850-a98b-32c1c9f8d94b,checkout_abandoned,cust_f1738856,pmittal@example.com,+912004711382,Timothy Bhatnagar,45540.0,INR,,,,plink_741b77f5,payment_step,,2026-09-03T17:31:23.508935,True
+304a3314-064b-400a-9d0f-7abfd36210cb,invoice_overdue,cust_a3917c99,rushil67@example.org,+916959440640,Zashil Shan,48503.85,INR,invoice_no_response,,inv_2877f5d9,,,,2026-09-03T17:31:23.508942,True
+800402b9-0df7-487f-af08-fe8b50752639,payment_failed,cust_f7294951,uloyal@example.org,+914737996507,Veda Shroff,34696.69,INR,bank_issuer_error,,,,,,2026-09-03T17:31:23.508948,True
+5219f78a-1753-4052-b45b-1c16e1317f93,payment_failed,cust_4169b9fc,tankqushi@example.org,+916838851606,Falak Dar,15969.73,INR,bank network timeout,,,,,,2026-09-03T17:31:23.508953,False
+bf3573b3-7fef-4d38-a238-7f02928b43b3,checkout_abandoned,cust_13eecdc6,hmann@example.com,+915297516136,Pushti Ravel,3607.35,INR,,,,plink_76e5ae78,details_step,,2026-09-03T17:31:23.508961,True
+c7cdde84-fd31-42b8-a1ca-6e2a9980896a,subscription_failed,cust_978648f8,triyagopal@example.org,06537556464,Fiyaz Sangha,1441.3,INR,expired_card,sub_24c778a5,,,,,2026-09-03T17:31:23.508969,True
+b8a5e349-adf6-44a0-90b1-c11b503079e8,invoice_overdue,cust_7a4c75d4,kborah@example.net,0229413186,Dhruv Rattan,2490.35,INR,broken_promise_to_pay,,inv_51beb80e,,,2026-08-28T17:31:23.508974,2026-09-03T17:31:23.508979,False
+5d902b69-e1d2-4b7f-ad04-02ced65cdff2,checkout_abandoned,cust_c1101266,ranaakshay@example.com,1754965137,Mekhala Pau,26652.08,INR,,,,plink_586a346a,payment_step,,2026-09-03T17:31:23.508986,True
+a874b9c3-fa5f-4791-8696-0c1bc3e8af3b,checkout_abandoned,cust_82ec9f2d,chaitanya60@example.net,3561595148,Lekha Gupta,30552.69,INR,,,,plink_c2baf0e0,payment_step,,2026-09-03T17:31:23.508994,True
+25c354ba-6481-44dc-aa23-aad9a51d63d9,invoice_overdue,cust_ec48bf55,chanderrachana@example.org,5280988516,Ekalinga Chand,7327.26,INR,broken_promise_to_pay,,inv_1b2ededb,,,2026-08-29T17:31:23.508999,2026-09-03T17:31:23.509003,True
+72af6b9b-c770-4d8a-ba06-5cd9540fab72,invoice_overdue,cust_8b8148f6,abeer26@example.com,02351161559,Thomas Sen,23369.61,INR,invoice_no_response,,inv_1f5d988f,,,,2026-09-03T17:31:23.509011,True
+d83ac92c-81e3-423c-9bc0-39e6791c1eac,payment_failed,cust_969b6662,bhargavaveer@example.org,+915183473829,Thomas Amble,17409.17,INR,bank network timeout,,,,,,2026-09-03T17:31:23.509017,True
+8290f799-afd3-4edb-9b21-8e9ad9e7f74c,payment_failed,cust_c85aca46,eprabhakar@example.net,5067165726,Idika Walia,15245.66,INR,bank network timeout,,,,,,2026-09-03T17:31:23.509022,False
+1ca7d1af-7677-436e-8c25-13b54d7124d7,checkout_abandoned,cust_0ea2622b,daksheshtrivedi@example.org,+911913619399,Vansha Thakkar,28681.75,INR,,,,plink_24108e9a,details_step,,2026-09-03T17:31:23.509030,True
+46b79675-82cb-445e-aca2-eddf43d76dd4,invoice_overdue,cust_bacfb3d0,memonjanaki@example.net,+911034131647,Jeet Radhakrishnan,32979.84,INR,invoice_no_response,,inv_f204be89,,,,2026-09-03T17:31:23.509037,True
+4873c11e-8e16-4802-8fb1-522ec622c9b5,invoice_overdue,cust_dc5c0eed,harini14@example.com,+917048281489,Ishwar Yadav,37309.57,INR,invoice_no_response,,inv_6b0ae0e3,,,,2026-09-03T17:31:23.509045,False
+a42f16c3-2346-43a6-a8c6-6a4afaa48ccf,subscription_failed,cust_978648f8,triyagopal@example.org,06537556464,Fiyaz Sangha,900.76,INR,declined by issuer,sub_e6fdd7af,,,,,2026-09-03T17:31:23.509054,True
+d9df0ac9-f5b4-45e9-bac8-2af46d6e9ba5,subscription_failed,cust_a319dcb4,handra@example.org,2805982620,Neel Sathe,2407.11,INR,subscription_bank_declined,sub_ef0a573d,,,,,2026-09-03T17:31:23.509062,True
+c1dd949a-26db-49e6-b680-8920facf11c6,subscription_failed,cust_50c187fc,divyakala@example.net,06724238849,Amrita Bhatti,1113.81,INR,subscription_bank_declined,sub_3098f7b2,,,,,2026-09-03T17:31:23.509070,True
+694dfe32-a7b6-4488-b9d1-3b564362c88a,checkout_abandoned,cust_c73f6e1b,indirakanda@example.net,+919421047095,Watika Mangat,6781.56,INR,,,,plink_fef7d9ea,details_step,,2026-09-03T17:31:23.509078,True
+c7a96ba4-1c46-4470-bfbe-22309c76620a,payment_failed,cust_372f871a,mandervidhi@example.net,4036900343,Hemani Sani,13771.86,INR,bank network timeout,,,,,,2026-09-03T17:31:23.509084,True
+3fdb09f5-bfdf-4d14-97a8-6b00f783be7e,subscription_failed,cust_b540b30e,masterjonathan@example.net,01094777520,Anusha Bath,593.12,INR,expired_card,sub_e10b1a47,,,,,2026-09-03T17:31:23.509092,True
+66fda601-4192-44ad-9c2b-a624b596725c,invoice_overdue,cust_5a0cdd7c,vinayakanda@example.com,07065627298,Madhavi Saini,36265.99,INR,invoice_no_response,,inv_170d7507,,,,2026-09-03T17:31:23.509101,False
+eb879d34-d4be-49b5-b4b7-db7ca8ad55f1,payment_failed,cust_9a36d1ec,wshetty@example.net,7995527177,Faqid Goel,39575.96,INR,issuer declined transaction,,,,,,2026-09-03T17:31:23.509107,True
+b80441c4-27e7-419c-91c3-aaeb27bc3f16,payment_failed,cust_43e42caf,kalamane@example.org,08498084124,Ikshita Biswas,33706.85,INR,issuer declined transaction,,,,,,2026-09-03T17:31:23.509112,True
+c86be773-81db-4a56-9d9b-f7f68a3ffac5,invoice_overdue,cust_b489d070,ibansal@example.net,5171870262,Libni Doshi,47026.54,INR,broken_promise_to_pay,,inv_750d112e,,,2026-09-02T17:31:23.509117,2026-09-03T17:31:23.509122,True
+3de50a71-ebbc-4a8e-83e2-69ca194f5e3f,invoice_overdue,cust_1578d709,rajeshrichand@example.org,05060685361,Anjali Sengupta,28158.09,INR,broken_promise_to_pay,,inv_95560a2d,,,2026-09-01T17:31:23.509127,2026-09-03T17:31:23.509132,False
+41b85546-6933-4ca5-af01-6afdd3d0bd69,invoice_overdue,cust_e68933a9,zashilghosh@example.org,0205395024,Aradhana Dhillon,15249.07,INR,broken_promise_to_pay,,inv_4806f804,,,2026-09-02T17:31:23.509137,2026-09-03T17:31:23.509141,True
+9bb229c5-1d75-4577-bb4a-c335cef715c5,invoice_overdue,cust_7a4c75d4,kborah@example.net,0229413186,Dhruv Rattan,5982.8,INR,invoice_no_response,,inv_d7c4fe9c,,,,2026-09-03T17:31:23.509149,True
+c8b1de4c-997f-4dfb-887f-784d5a76a5a9,payment_failed,cust_f81dbaa1,narasimhanlajita@example.com,7809134316,Hamsini Rao,33590.21,INR,issuer declined transaction,,,,,,2026-09-03T17:31:23.509154,False
+f50cb8b8-3f72-48d2-959a-6c6aa5f3a798,subscription_failed,cust_c73f6e1b,indirakanda@example.net,+919421047095,Watika Mangat,2533.34,INR,expired_card,sub_4926ce5f,,,,,2026-09-03T17:31:23.509162,False
+b260661f-63f6-4f03-b5b6-784378f56214,payment_failed,cust_92070158,hthakkar@example.com,+913924075818,Triya Manda,47585.77,INR,bank_issuer_error,,,,,,2026-09-03T17:31:23.509168,True
+d03fd2e7-c00e-4714-b6f6-cb6459f432bb,payment_failed,cust_3b33f3d8,sachdevanikita@example.com,7603669096,Michael Kala,47537.65,INR,insufficient_funds,,,,,,2026-09-03T17:31:23.509173,False
+03dee703-b650-4a01-b1d5-e2bcc7a8369d,payment_failed,cust_ffb8102d,vpai@example.net,6753396360,Manthan Sekhon,48896.56,INR,bank network timeout,,,,,,2026-09-03T17:31:23.509179,True
+c9ad21b7-1007-490e-8533-1af4e2a8f3dc,checkout_abandoned,cust_17d2582e,daminipillay@example.com,8568557444,Timothy Ravel,6283.55,INR,,,,plink_1b84edc3,details_step,,2026-09-03T17:31:23.509186,False
+664da104-fb9b-4068-818f-f35cc3f8ccf7,subscription_failed,cust_23e2fcb4,ekrish@example.com,1080132677,Qadim Mallick,340.62,INR,expired_card,sub_43b47ee5,,,,,2026-09-03T17:31:23.509195,True
+27fc450a-1407-4155-827e-65c861962e79,checkout_abandoned,cust_9918ee46,atharv13@example.net,9049027874,Rachana Naidu,6471.01,INR,,,,plink_673ba8bd,payment_step,,2026-09-03T17:31:23.509202,True
+6768236a-f2f6-423c-a744-840689e2b045,checkout_abandoned,cust_1422373f,gauriganguly@example.org,1883552312,Dayita Nori,10954.38,INR,,,,plink_0d18ab95,details_step,,2026-09-03T17:31:23.509210,False
+6fb30807-da09-468e-b24c-1e05fd24dfd4,subscription_failed,cust_eededb07,harshilpandya@example.net,09232260256,Ishita Kade,2964.08,INR,card expired,sub_5cce5ba9,,,,,2026-09-03T17:31:23.509218,True
+39b22827-78f6-4806-afe9-f5ccebdfbf8d,checkout_abandoned,cust_13eecdc6,hmann@example.com,+915297516136,Pushti Ravel,8889.96,INR,,,,plink_62e7c1a6,payment_step,,2026-09-03T17:31:23.509228,True
+fcd0ef85-db93-4da1-9b12-a5eda13ed8a1,checkout_abandoned,cust_be0f051b,hemaljani@example.net,4874016400,Anita Manda,39541.24,INR,,,,plink_8cc36f3b,details_step,,2026-09-03T17:31:23.509236,True
+7bf949b7-86bb-4186-b124-2d62ee9330c8,checkout_abandoned,cust_bacfb3d0,memonjanaki@example.net,+911034131647,Jeet Radhakrishnan,2809.47,INR,,,,plink_9f8cc29f,payment_step,,2026-09-03T17:31:23.509244,False
+91f93703-5ed4-487f-898c-24127d6fccbc,payment_failed,cust_f264accc,ikakar@example.net,3465787133,Alka Wable,38945.25,INR,insufficient_funds,,,,,,2026-09-03T17:31:23.509249,True
+3bffb3f5-8b61-483e-815e-ac996a0f5dcd,payment_failed,cust_aba4fc03,surinikita@example.com,+915377351585,Mohammed Sachdeva,47281.7,INR,issuer declined transaction,,,,,,2026-09-03T17:31:23.509255,True
+9efe974e-514c-4e56-b68c-44604c8e34ef,payment_failed,cust_7a4c75d4,kborah@example.net,0229413186,Dhruv Rattan,48208.5,INR,bank network timeout,,,,,,2026-09-03T17:31:23.509260,True
+e43c8044-77e7-4993-aafd-517e811181ed,payment_failed,cust_deef580f,vincentshenoy@example.net,07407482175,Wridesh Tank,5576.5,INR,bank network timeout,,,,,,2026-09-03T17:31:23.509265,False
+1b8bc746-c77f-484f-881a-93583a4724e5,invoice_overdue,cust_969b6662,bhargavaveer@example.org,+915183473829,Thomas Amble,16241.17,INR,broken_promise_to_pay,,inv_20f0156a,,,2026-08-24T17:31:23.509270,2026-09-03T17:31:23.509275,True
+8ff41404-eebf-48b1-9181-576fb215fc5c,payment_failed,cust_5d286aa4,rnigam@example.net,+915151864492,Barkha Ram,16394.24,INR,issuer declined transaction,,,,,,2026-09-03T17:31:23.509280,False
+5eb9ab71-1b35-499d-9307-54475d2657b3,payment_failed,cust_b540b30e,masterjonathan@example.net,01094777520,Anusha Bath,30350.25,INR,insufficient_funds,,,,,,2026-09-03T17:31:23.509285,True
+05fffc3d-67a5-44ee-a1f2-d3ad805be5d0,subscription_failed,cust_1422373f,gauriganguly@example.org,1883552312,Dayita Nori,1357.68,INR,card expired,sub_5f89ed12,,,,,2026-09-03T17:31:23.509294,True
+b342aa99-0eff-4ed8-8d33-b3384c70ef4d,payment_failed,cust_30974b2b,anshbedi@example.com,+912931839335,Suhani Chand,36534.7,INR,bank_issuer_error,,,,,,2026-09-03T17:31:23.509299,True
+71657f97-f9a9-4fef-a16a-dc2667224637,payment_failed,cust_c85aca46,eprabhakar@example.net,5067165726,Idika Walia,7801.42,INR,insufficient_funds,,,,,,2026-09-03T17:31:23.509305,False
+f622b46f-5f98-4663-850e-f9df2301e6ea,invoice_overdue,cust_23e2fcb4,ekrish@example.com,1080132677,Qadim Mallick,4842.86,INR,invoice_no_response,,inv_8ece1128,,,,2026-09-03T17:31:23.509312,True
+62c0eb91-5e91-427c-9512-1cf09274b27f,subscription_failed,cust_be0f051b,hemaljani@example.net,4874016400,Anita Manda,2075.04,INR,subscription_bank_declined,sub_24eeb4a6,,,,,2026-09-03T17:31:23.509322,True
+589e3e99-5407-4cc7-bf39-b63c13ae5115,payment_failed,cust_a3917c99,rushil67@example.org,+916959440640,Zashil Shan,33333.96,INR,insufficient_funds,,,,,,2026-09-03T17:31:23.509327,False
+444390d7-114b-4e58-98c8-6d04f6667bc6,subscription_failed,cust_314d3441,rehaankalita@example.net,04989413435,Jagdish Wason,632.24,INR,card expired,sub_66c14dca,,,,,2026-09-03T17:31:23.509336,True
+4306c0cf-6bdf-4d15-b79e-db2dc99cb157,checkout_abandoned,cust_66d06371,fborah@example.com,2124998569,Hritik Swaminathan,5589.28,INR,,,,plink_09f64405,details_step,,2026-09-03T17:31:23.509343,False
+be95240b-1d7b-45b1-89a1-5838921606d7,subscription_failed,cust_6b5252e3,william46@example.org,4751079911,Advika Jayaraman,2927.73,INR,declined by issuer,sub_cdd0b4d4,,,,,2026-09-03T17:31:23.509351,False
+f063cbaf-faf5-4277-a6e0-931f747f8a8f,subscription_failed,cust_1578d709,rajeshrichand@example.org,05060685361,Anjali Sengupta,280.07,INR,subscription_bank_declined,sub_2620f9a9,,,,,2026-09-03T17:31:23.509360,True
+b8d67521-b5e6-48c9-aa1c-99ee4f255a74,subscription_failed,cust_7cd0129d,ati94@example.net,+918313678377,Isha Kuruvilla,706.94,INR,expired_card,sub_23c8afdb,,,,,2026-09-03T17:31:23.509369,True
+36feca4c-c6f0-406d-9506-ce1ce710a8d8,subscription_failed,cust_eededb07,harshilpandya@example.net,09232260256,Ishita Kade,455.92,INR,expired_card,sub_518b2f21,,,,,2026-09-03T17:31:23.509378,True
+309383d2-bcc4-467b-8fe8-64f2eb8590f1,checkout_abandoned,cust_372f871a,mandervidhi@example.net,4036900343,Hemani Sani,21107.66,INR,,,,plink_9dd2f9de,details_step,,2026-09-03T17:31:23.509385,True
+b83651ef-15e6-4465-9aec-2379fcfa0d3f,subscription_failed,cust_9e50aa42,lmishra@example.com,09909133412,Lajita Seshadri,2672.36,INR,expired_card,sub_97fe56c5,,,,,2026-09-03T17:31:23.509394,True
+68a0727e-c569-4472-ad45-5ce3dcb62523,checkout_abandoned,cust_bc2cbb0d,rajabalvan@example.com,+913754330365,Amara Dutta,30968.34,INR,,,,plink_827c9f8c,details_step,,2026-09-03T17:31:23.509401,True
+6bda454b-1c86-4231-b105-4349a95f7850,subscription_failed,cust_f1738856,pmittal@example.com,+912004711382,Timothy Bhatnagar,802.59,INR,subscription_bank_declined,sub_901bcdef,,,,,2026-09-03T17:31:23.509409,True
+6c44cd19-8a95-49a4-9849-b9de50831048,checkout_abandoned,cust_d85c16bd,anjalimore@example.com,00229612018,Amara Balakrishnan,21609.7,INR,,,,plink_044251db,details_step,,2026-09-03T17:31:23.509419,True
+df14ff61-a1b3-4a39-a5df-684aac3b2c6a,subscription_failed,cust_372f871a,mandervidhi@example.net,4036900343,Hemani Sani,352.39,INR,declined by issuer,sub_1c0f0bdc,,,,,2026-09-03T17:31:23.509427,True
+3d5e1f07-b259-4f7c-b11c-dd26a116c18b,payment_failed,cust_dc8aee30,aradhanaverma@example.com,3471434558,Shivani Lad,10719.45,INR,bank_issuer_error,,,,,,2026-09-03T17:31:23.509433,True
+31790e5e-cdf2-49d0-8550-8ba46faaa0d7,payment_failed,cust_b540b30e,masterjonathan@example.net,01094777520,Anusha Bath,584.95,INR,insufficient funds in account,,,,,,2026-09-03T17:31:23.509438,False
+443e31f6-2665-4140-9fe3-548fd191c686,payment_failed,cust_be0f051b,hemaljani@example.net,4874016400,Anita Manda,35242.83,INR,bank_issuer_error,,,,,,2026-09-03T17:31:23.509443,True
+fcfe5517-a8fb-4340-ac46-5e3270768393,payment_failed,cust_969b6662,bhargavaveer@example.org,+915183473829,Thomas Amble,37153.66,INR,bank network timeout,,,,,,2026-09-03T17:31:23.509449,True
+c3e95317-4662-46a9-9921-dfd7671534ed,invoice_overdue,cust_969b6662,bhargavaveer@example.org,+915183473829,Thomas Amble,28872.81,INR,invoice_no_response,,inv_4ec3f970,,,,2026-09-03T17:31:23.509457,True
+ecd8421a-2374-4a3b-ae4d-3c57a82daa29,checkout_abandoned,cust_c73f6e1b,indirakanda@example.net,+919421047095,Watika Mangat,20370.61,INR,,,,plink_df41e335,payment_step,,2026-09-03T17:31:23.509465,False
+98de0f8d-28d8-465c-80c8-ee80098e99de,payment_failed,cust_1578d709,rajeshrichand@example.org,05060685361,Anjali Sengupta,34542.58,INR,bank network timeout,,,,,,2026-09-03T17:31:23.509470,True
+98792e53-63d5-4d5b-9658-0ca1c17caf64,checkout_abandoned,cust_0ea2622b,daksheshtrivedi@example.org,+911913619399,Vansha Thakkar,29525.79,INR,,,,plink_98cf1188,details_step,,2026-09-03T17:31:23.509478,True
+7a8f2b96-3b7b-4d06-a884-1b34b8c47abd,subscription_failed,cust_9e50aa42,lmishra@example.com,09909133412,Lajita Seshadri,1628.35,INR,expired_card,sub_a7d4cf50,,,,,2026-09-03T17:31:23.509486,False
+83e46a28-244b-41ac-85ba-516fd9f53a32,payment_failed,cust_6b5252e3,william46@example.org,4751079911,Advika Jayaraman,9856.4,INR,bank_issuer_error,,,,,,2026-09-03T17:31:23.509491,False
+b87809ca-cac0-4110-a29d-fa32834a46d5,checkout_abandoned,cust_eededb07,harshilpandya@example.net,09232260256,Ishita Kade,7492.92,INR,,,,plink_9416e4dc,payment_step,,2026-09-03T17:31:23.509499,True
+f40f4695-b601-4164-ae44-dadb6b375725,checkout_abandoned,cust_969b6662,bhargavaveer@example.org,+915183473829,Thomas Amble,38687.83,INR,,,,plink_0d259caa,details_step,,2026-09-03T17:31:23.509507,True
+fe7fded4-8759-4cce-acfb-4da628636ae1,subscription_failed,cust_46510367,mukherjeetriya@example.com,+910541199867,Indira Tripathi,621.68,INR,subscription_bank_declined,sub_86341718,,,,,2026-09-03T17:31:23.509515,True
+7f7217c3-6692-4d18-86a4-cd076914641d,payment_failed,cust_f264accc,ikakar@example.net,3465787133,Alka Wable,31642.98,INR,issuer declined transaction,,,,,,2026-09-03T17:31:23.509521,False
+1a5b9662-6fef-4728-ab54-00ea268b167f,payment_failed,cust_c333e861,hbahl@example.com,03039117182,Aadi Naik,3894.69,INR,insufficient_funds,,,,,,2026-09-03T17:31:23.509526,True
+80780584-9ae1-45e0-a436-c7afab5d0c78,payment_failed,cust_c333e861,hbahl@example.com,03039117182,Aadi Naik,14496.44,INR,insufficient_funds,,,,,,2026-09-03T17:31:23.509532,True
+82e870f5-e435-41c0-9bb8-4d7d24f1f797,subscription_failed,cust_92070158,hthakkar@example.com,+913924075818,Triya Manda,1458.25,INR,expired_card,sub_c64c9647,,,,,2026-09-03T17:31:23.509540,True
+0f40c2ab-7721-4e45-8baf-cf93da4e397b,subscription_failed,cust_cab4923b,vamakshi82@example.org,01518203778,Shivani Guha,2880.62,INR,card expired,sub_d25864f2,,,,,2026-09-03T17:31:23.509550,True
+d33d350d-75ce-4add-826e-047edf7b6aa9,checkout_abandoned,cust_aba4fc03,surinikita@example.com,+915377351585,Mohammed Sachdeva,44976.52,INR,,,,plink_9293f705,payment_step,,2026-09-03T17:31:23.509558,True
+eb6a84d5-4e71-4f04-a36e-5d41b717d604,subscription_failed,cust_f0ede303,indira19@example.net,+912731585149,Charan Mani,1666.39,INR,bank declined mandate,sub_30d73df7,,,,,2026-09-03T17:31:23.509566,False
+76bedf84-218f-40c4-aac5-379cd9d04a63,checkout_abandoned,cust_92070158,hthakkar@example.com,+913924075818,Triya Manda,18768.03,INR,,,,plink_6b352f85,details_step,,2026-09-03T17:31:23.509574,True
+d271bd22-d3ed-42b3-b4cd-887d41c8cfe7,subscription_failed,cust_6f962882,nilima55@example.net,+912567468071,Gavin Singhal,383.55,INR,subscription_bank_declined,sub_34323ec6,,,,,2026-09-03T17:31:23.509582,True
+96b6793e-496e-411b-bb7c-32e13390b92e,subscription_failed,cust_e7067ef4,ramakrishnanalka@example.com,06872343098,Nitesh Raghavan,2644.18,INR,declined by issuer,sub_9c89d374,,,,,2026-09-03T17:31:23.509590,True
+bdd5e4f5-05fe-4d27-8e44-184811d37846,checkout_abandoned,cust_9918ee46,atharv13@example.net,9049027874,Rachana Naidu,33247.88,INR,,,,plink_d92f3c1e,details_step,,2026-09-03T17:31:23.509598,False
+e793a486-6150-4fb5-b7f4-e7de900368c5,checkout_abandoned,cust_a23d4c2f,ayush05@example.org,05562386922,Sachi Ganesan,35499.93,INR,,,,plink_b4adaf89,details_step,,2026-09-03T17:31:23.509606,True
+384ed9ca-a574-4563-910e-6313e20a46c3,invoice_overdue,cust_9918ee46,atharv13@example.net,9049027874,Rachana Naidu,33571.8,INR,invoice_no_response,,inv_8f964685,,,,2026-09-03T17:31:23.509614,False
+05fd9fa1-a151-4632-a786-3001fce81f50,checkout_abandoned,cust_372f871a,mandervidhi@example.net,4036900343,Hemani Sani,33588.71,INR,,,,plink_7a768555,payment_step,,2026-09-03T17:31:23.509621,True
+9ba0ce4c-8c16-42ef-88ce-701c5b20bb42,payment_failed,cust_faf14ff0,leelahalder@example.net,2146584044,Yagnesh Shan,47568.23,INR,bank network timeout,,,,,,2026-09-03T17:31:23.509628,True
+d28d645f-9c8b-42c0-bb3f-88f04e5d864a,checkout_abandoned,cust_0640be0f,shahoeshi@example.net,3676320163,Yash Soman,7050.75,INR,,,,plink_f4e95734,payment_step,,2026-09-03T17:31:23.509637,True
+c9f56538-6959-498d-9841-e265535e58d5,subscription_failed,cust_f0ede303,indira19@example.net,+912731585149,Charan Mani,2052.4,INR,expired_card,sub_887b03e5,,,,,2026-09-03T17:31:23.509645,False
+c64defa8-0631-4703-889a-b20f8571f9e2,checkout_abandoned,cust_1578d709,rajeshrichand@example.org,05060685361,Anjali Sengupta,18960.65,INR,,,,plink_ad05b912,payment_step,,2026-09-03T17:31:23.509653,True
+b524264b-b3cc-46ea-931d-9788b9244c26,checkout_abandoned,cust_f1738856,pmittal@example.com,+912004711382,Timothy Bhatnagar,18342.11,INR,,,,plink_ae455cc6,details_step,,2026-09-03T17:31:23.509661,False
+e2724acf-0f6c-4442-b4e5-fc3358a3ae5f,checkout_abandoned,cust_92070158,hthakkar@example.com,+913924075818,Triya Manda,37477.12,INR,,,,plink_43ad3d62,payment_step,,2026-09-03T17:31:23.509668,True
+dbfad475-b466-4099-b6b7-b8db506a5132,invoice_overdue,cust_9e50aa42,lmishra@example.com,09909133412,Lajita Seshadri,39261.64,INR,broken_promise_to_pay,,inv_f5141058,,,2026-08-24T17:31:23.509673,2026-09-03T17:31:23.509678,False
+c3606f31-e63c-476a-9b06-f0c496bfd302,payment_failed,cust_f1738856,pmittal@example.com,+912004711382,Timothy Bhatnagar,14232.23,INR,issuer declined transaction,,,,,,2026-09-03T17:31:23.509683,True
+216aaa43-7d05-40e9-ac0a-a76a3dd1572c,invoice_overdue,cust_c73f6e1b,indirakanda@example.net,+919421047095,Watika Mangat,40881.18,INR,broken_promise_to_pay,,inv_4c6a70f4,,,2026-08-29T17:31:23.509688,2026-09-03T17:31:23.509692,False
+1d744726-32af-48a7-95fb-7c7834911a1c,subscription_failed,cust_dc5c0eed,harini14@example.com,+917048281489,Ishwar Yadav,2190.92,INR,expired_card,sub_fb756923,,,,,2026-09-03T17:31:23.509700,True
+820181f2-785e-4dba-94a7-274c390245f3,invoice_overdue,cust_74222167,ekta99@example.org,+912290147679,Nakul Pingle,14396.14,INR,broken_promise_to_pay,,inv_b4746349,,,2026-08-25T17:31:23.509705,2026-09-03T17:31:23.509710,False
+f01e35e3-2173-4a27-9581-9c50245f34f2,invoice_overdue,cust_eededb07,harshilpandya@example.net,09232260256,Ishita Kade,4767.34,INR,invoice_no_response,,inv_7d2f4e58,,,,2026-09-03T17:31:23.509719,False
+2c47fcad-25d7-4465-babf-b456f683174f,invoice_overdue,cust_1dad09b2,dsachdev@example.org,5977034824,Yoshita Agarwal,20861.87,INR,broken_promise_to_pay,,inv_8f7c1d59,,,2026-08-27T17:31:23.509724,2026-09-03T17:31:23.509733,True
+998a55dd-27fa-4732-9c31-3a8660280b12,payment_failed,cust_c8dcd19f,chatterjeeraagini@example.com,06701065133,Niharika Gupta,1603.74,INR,bank_issuer_error,,,,,,2026-09-03T17:31:23.509739,False
+6cd74016-5ba9-4c1b-803d-4d9983b38a65,checkout_abandoned,cust_eededb07,harshilpandya@example.net,09232260256,Ishita Kade,14486.59,INR,,,,plink_b8beff3d,payment_step,,2026-09-03T17:31:23.509747,False
+5083d016-8747-44b6-a71d-158f2c5c8685,payment_failed,cust_6bc4123e,gpathak@example.net,+917839084700,Devansh Soni,461.51,INR,bank_issuer_error,,,,,,2026-09-03T17:31:23.509752,True
+ac57bf68-e2cf-4289-8b10-a2431f0978b2,invoice_overdue,cust_3b33f3d8,sachdevanikita@example.com,7603669096,Michael Kala,27530.45,INR,invoice_no_response,,inv_92cf6021,,,,2026-09-03T17:31:23.509760,False
+455f33f3-33d2-4877-8d13-e5ee2e145905,subscription_failed,cust_6b5252e3,william46@example.org,4751079911,Advika Jayaraman,1374.51,INR,card expired,sub_e5508ea2,,,,,2026-09-03T17:31:23.509769,True
+212d8cd5-c8ca-4b6b-a977-a13224407a04,payment_failed,cust_1578d709,rajeshrichand@example.org,05060685361,Anjali Sengupta,5720.72,INR,issuer declined transaction,,,,,,2026-09-03T17:31:23.509774,False
+c02a2771-0ad5-4fdb-831c-f68198fbf6c4,checkout_abandoned,cust_4169b9fc,tankqushi@example.org,+916838851606,Falak Dar,25865.71,INR,,,,plink_585abefb,payment_step,,2026-09-03T17:31:23.509782,True
+7d8578b1-8e67-45b9-b67c-7df6566e68c9,payment_failed,cust_b540b30e,masterjonathan@example.net,01094777520,Anusha Bath,30817.52,INR,bank network timeout,,,,,,2026-09-03T17:31:23.509787,True
+d921e886-5ad3-492a-8b35-44521bddfa8c,subscription_failed,cust_9b4e2c24,gkala@example.com,2148951343,Udyati Sathe,2868.53,INR,expired_card,sub_257f7595,,,,,2026-09-03T17:31:23.509797,False
+cd0d3e1e-f79d-4763-b501-0b90f37c4b32,payment_failed,cust_13eecdc6,hmann@example.com,+915297516136,Pushti Ravel,49418.91,INR,bank network timeout,,,,,,2026-09-03T17:31:23.509802,True
+62c2b1b9-f943-4691-bf1e-27db387cd204,checkout_abandoned,cust_6bc4123e,gpathak@example.net,+917839084700,Devansh Soni,19466.69,INR,,,,plink_f48f709c,payment_step,,2026-09-03T17:31:23.509810,True
+283c40c3-fe89-47aa-a9ea-78154561b0ea,subscription_failed,cust_7c16128d,deepaatwal@example.net,01317127484,Ayush Khatri,2359.2,INR,expired_card,sub_ec8be537,,,,,2026-09-03T17:31:23.509818,False
+b87682b9-58c4-4b55-86ca-f43cde39f230,checkout_abandoned,cust_9918ee46,atharv13@example.net,9049027874,Rachana Naidu,17744.49,INR,,,,plink_bf519362,payment_step,,2026-09-03T17:31:23.509826,True
+2e48792a-4a4f-4034-a54e-9527e9d83f0e,invoice_overdue,cust_e68933a9,zashilghosh@example.org,0205395024,Aradhana Dhillon,24030.85,INR,broken_promise_to_pay,,inv_d3f4a49b,,,2026-08-26T17:31:23.509831,2026-09-03T17:31:23.509836,True
+595e4643-34df-43c1-8abe-1642cda6a055,checkout_abandoned,cust_50c187fc,divyakala@example.net,06724238849,Amrita Bhatti,2381.55,INR,,,,plink_8fe069b6,payment_step,,2026-09-03T17:31:23.509844,True
+7d1217ad-64fb-4752-a536-ec4a59f0aff8,invoice_overdue,cust_1337739e,ssinghal@example.org,+914471349361,Aarnav Rege,25866.1,INR,invoice_no_response,,inv_1bf645f6,,,,2026-09-03T17:31:23.509852,False
+744ed1a3-e4b8-48b5-b3bb-c2ab830052ae,checkout_abandoned,cust_c85aca46,eprabhakar@example.net,5067165726,Idika Walia,32415.64,INR,,,,plink_3d4196fe,payment_step,,2026-09-03T17:31:23.509860,True
+8ffa91db-d819-49cb-9f0a-2c60594db91c,checkout_abandoned,cust_9918ee46,atharv13@example.net,9049027874,Rachana Naidu,40007.25,INR,,,,plink_e7ba26ac,details_step,,2026-09-03T17:31:23.509868,True
+6ac8dbdd-0c94-45c8-9001-b294836f48d9,invoice_overdue,cust_f1738856,pmittal@example.com,+912004711382,Timothy Bhatnagar,19454.91,INR,broken_promise_to_pay,,inv_3b9b2d45,,,2026-08-26T17:31:23.509873,2026-09-03T17:31:23.509877,False
+3ac84b0a-f443-49d8-8d7e-ba0d15ca6b3d,invoice_overdue,cust_ffb8102d,vpai@example.net,6753396360,Manthan Sekhon,26059.94,INR,invoice_no_response,,inv_548e1f6b,,,,2026-09-03T17:31:23.509885,False
+3205c7d3-d3c2-42e7-8e5a-2383d089873a,payment_failed,cust_c8dcd19f,chatterjeeraagini@example.com,06701065133,Niharika Gupta,49755.89,INR,bank_issuer_error,,,,,,2026-09-03T17:31:23.509891,True
+7751ae96-cef6-4338-ae6c-ad2156241e93,checkout_abandoned,cust_26242b40,gandhidamyanti@example.net,9471746488,Lucky Bora,16530.41,INR,,,,plink_ae62990c,details_step,,2026-09-03T17:31:23.509899,True
+53aa9bce-34bc-4011-b3e9-dc7661a4f149,subscription_failed,cust_2e4bebc4,rpatla@example.net,+917947383473,Raksha Bassi,317.59,INR,bank declined mandate,sub_f6eab3a0,,,,,2026-09-03T17:31:23.509907,True
+0d00b43f-f91f-4540-b83a-a3039ed6ed3e,subscription_failed,cust_7c16128d,deepaatwal@example.net,01317127484,Ayush Khatri,409.12,INR,expired_card,sub_286ed390,,,,,2026-09-03T17:31:23.509915,True
+d99576a9-5fec-4c91-af68-160800f0b77d,payment_failed,cust_deef580f,vincentshenoy@example.net,07407482175,Wridesh Tank,40094.58,INR,insufficient_funds,,,,,,2026-09-03T17:31:23.509922,True
+d51e1b9d-caf8-4180-910e-6b6339529819,invoice_overdue,cust_eededb07,harshilpandya@example.net,09232260256,Ishita Kade,33968.83,INR,broken_promise_to_pay,,inv_e1721c83,,,2026-08-30T17:31:23.509928,2026-09-03T17:31:23.509932,True
+7f900080-3f34-4602-8721-93ad7056d5e4,payment_failed,cust_faf14ff0,leelahalder@example.net,2146584044,Yagnesh Shan,47483.46,INR,insufficient funds in account,,,,,,2026-09-03T17:31:23.509938,True
+00f3a32d-0b6a-4a88-a67e-814bb998e4c5,invoice_overdue,cust_aba4fc03,surinikita@example.com,+915377351585,Mohammed Sachdeva,18726.27,INR,invoice_no_response,,inv_a689b424,,,,2026-09-03T17:31:23.509946,False
+4babac5c-4910-4dd3-b77e-1cf36c170735,payment_failed,cust_372f871a,mandervidhi@example.net,4036900343,Hemani Sani,15856.39,INR,insufficient_funds,,,,,,2026-09-03T17:31:23.509951,True
+17635197-f104-423f-9c96-d302b5273d2f,subscription_failed,cust_29a3b2e9,ekbal92@example.net,3276483503,Isha Kadakia,528.73,INR,declined by issuer,sub_4988e418,,,,,2026-09-03T17:31:23.509960,True
+67ef97f3-d3b6-4fff-baba-2449abd29d1b,subscription_failed,cust_f7294951,uloyal@example.org,+914737996507,Veda Shroff,759.5,INR,bank declined mandate,sub_0f25477d,,,,,2026-09-03T17:31:23.509970,True
+08a3c841-87ef-4798-b766-700f75fb320f,invoice_overdue,cust_a319dcb4,handra@example.org,2805982620,Neel Sathe,22711.73,INR,broken_promise_to_pay,,inv_a6fd0cb1,,,2026-09-01T17:31:23.509975,2026-09-03T17:31:23.509980,False
+40cb7c31-1120-411f-93d0-f2f46554eb42,subscription_failed,cust_1337739e,ssinghal@example.org,+914471349361,Aarnav Rege,2694.73,INR,subscription_bank_declined,sub_bd1a8f4b,,,,,2026-09-03T17:31:23.509988,True
+d0320356-9509-4734-90b9-76a72f671089,subscription_failed,cust_f7860b50,vyadav@example.org,+914294019655,Indali Upadhyay,1623.52,INR,subscription_bank_declined,sub_098c60b3,,,,,2026-09-03T17:31:23.509996,True
+42070ac8-402c-45f5-8230-f32152b9b325,invoice_overdue,cust_43e42caf,kalamane@example.org,08498084124,Ikshita Biswas,39644.87,INR,broken_promise_to_pay,,inv_6afa828c,,,2026-08-28T17:31:23.510001,2026-09-03T17:31:23.510005,True
+f6be5ee4-7b3d-4ddd-be75-380d646dfd8b,subscription_failed,cust_1422373f,gauriganguly@example.org,1883552312,Dayita Nori,1912.46,INR,card expired,sub_ef158d5b,,,,,2026-09-03T17:31:23.510014,False
+a0493ea1-a8cf-4933-a153-e7bc9a0fd9ad,checkout_abandoned,cust_23e2fcb4,ekrish@example.com,1080132677,Qadim Mallick,20028.37,INR,,,,plink_d61169a1,details_step,,2026-09-03T17:31:23.510023,False
+bf46505d-bca7-4b1c-bc97-47df1ba677f2,payment_failed,cust_372f871a,mandervidhi@example.net,4036900343,Hemani Sani,20589.79,INR,insufficient funds in account,,,,,,2026-09-03T17:31:23.510028,True
+44544f5a-6bd7-4bda-b946-7a580b2b5fbf,subscription_failed,cust_1337739e,ssinghal@example.org,+914471349361,Aarnav Rege,558.34,INR,subscription_bank_declined,sub_2fb21e66,,,,,2026-09-03T17:31:23.510038,True
+19a36bce-c687-4e84-ba53-471f2d05da8e,subscription_failed,cust_1422373f,gauriganguly@example.org,1883552312,Dayita Nori,1607.02,INR,bank declined mandate,sub_df4e713e,,,,,2026-09-03T17:31:23.510047,False
+245f33b9-de8b-4089-aea7-a45b4adc1f4c,invoice_overdue,cust_c333e861,hbahl@example.com,03039117182,Aadi Naik,26001.49,INR,broken_promise_to_pay,,inv_0997623a,,,2026-08-30T17:31:23.510052,2026-09-03T17:31:23.510057,True
+db811e47-61b1-4b7d-b7d0-fb5f1051dafe,invoice_overdue,cust_1dad09b2,dsachdev@example.org,5977034824,Yoshita Agarwal,26041.11,INR,broken_promise_to_pay,,inv_9a4ffc0c,,,2026-08-30T17:31:23.510061,2026-09-03T17:31:23.510066,True
+0ae27a7e-d66e-4bf0-918a-ea905bc2faad,checkout_abandoned,cust_1422373f,gauriganguly@example.org,1883552312,Dayita Nori,31326.11,INR,,,,plink_55c551fc,payment_step,,2026-09-03T17:31:23.510074,True
+4e9bceef-e930-4157-a50f-005654cc4ff0,subscription_failed,cust_f0ede303,indira19@example.net,+912731585149,Charan Mani,2043.45,INR,card expired,sub_a42d0cd7,,,,,2026-09-03T17:31:23.510082,True
+90d26ce4-c93c-48e6-81c8-277b2040a302,payment_failed,cust_2e4bebc4,rpatla@example.net,+917947383473,Raksha Bassi,46211.7,INR,insufficient_funds,,,,,,2026-09-03T17:31:23.510087,True
+4a1d3682-b199-464f-ab5b-8ed4d0d15d87,checkout_abandoned,cust_c8dcd19f,chatterjeeraagini@example.com,06701065133,Niharika Gupta,32144.4,INR,,,,plink_e3a68a70,payment_step,,2026-09-03T17:31:23.510095,True
+0c96f175-a743-411d-aec2-00626ba7244b,payment_failed,cust_cab4923b,vamakshi82@example.org,01518203778,Shivani Guha,32021.76,INR,issuer declined transaction,,,,,,2026-09-03T17:31:23.510100,True
+bde4d93e-f3b4-49a8-8110-d82037ea2089,subscription_failed,cust_b540b30e,masterjonathan@example.net,01094777520,Anusha Bath,1031.81,INR,bank declined mandate,sub_811414f8,,,,,2026-09-03T17:31:23.510108,True
+808e691a-2c6f-4ce8-b11a-c2c47e2fd498,subscription_failed,cust_969b6662,bhargavaveer@example.org,+915183473829,Thomas Amble,770.26,INR,bank declined mandate,sub_cf0e6d2b,,,,,2026-09-03T17:31:23.510116,True
+0ccad841-a0d2-4586-80e8-ff87d91b101f,checkout_abandoned,cust_2e4bebc4,rpatla@example.net,+917947383473,Raksha Bassi,43101.96,INR,,,,plink_bb2aa146,details_step,,2026-09-03T17:31:23.510124,True
+3fd2b186-522a-4d93-aa6e-bab107b0718b,checkout_abandoned,cust_deef580f,vincentshenoy@example.net,07407482175,Wridesh Tank,18652.9,INR,,,,plink_b7f60cdf,details_step,,2026-09-03T17:31:23.510132,True
+c816762e-46fb-4e6e-9755-cd2b3b1a0f6e,payment_failed,cust_04f64d86,bariaazaan@example.org,+910923271937,Inaya Kapur,13520.09,INR,insufficient_funds,,,,,,2026-09-03T17:31:23.510137,True
+9ceff507-3c9d-4b98-bf43-eec4305d6fa8,checkout_abandoned,cust_dc5c0eed,harini14@example.com,+917048281489,Ishwar Yadav,19330.66,INR,,,,plink_564cfbd2,payment_step,,2026-09-03T17:31:23.510144,True
+6c02d7f5-0174-4f89-82d3-6011aed45cde,invoice_overdue,cust_f7860b50,vyadav@example.org,+914294019655,Indali Upadhyay,46700.83,INR,broken_promise_to_pay,,inv_aca58d95,,,2026-08-31T17:31:23.510149,2026-09-03T17:31:23.510154,False
+b7a66ab2-8fe3-4f97-b21d-082d97445495,invoice_overdue,cust_ec48bf55,chanderrachana@example.org,5280988516,Ekalinga Chand,23447.39,INR,broken_promise_to_pay,,inv_9c678393,,,2026-09-01T17:31:23.510158,2026-09-03T17:31:23.510163,False
+b17267d0-0892-40fc-95b7-9450e1660bb7,payment_failed,cust_a23d4c2f,ayush05@example.org,05562386922,Sachi Ganesan,48340.99,INR,bank_issuer_error,,,,,,2026-09-03T17:31:23.510168,True
+aeac39af-9747-48ca-b443-214e50f95351,checkout_abandoned,cust_dc5c0eed,harini14@example.com,+917048281489,Ishwar Yadav,24845.73,INR,,,,plink_67ce378f,details_step,,2026-09-03T17:31:23.510176,False
+3ce73d92-aeed-4331-8747-b83ba277eb6d,payment_failed,cust_314d3441,rehaankalita@example.net,04989413435,Jagdish Wason,42389.18,INR,bank_issuer_error,,,,,,2026-09-03T17:31:23.510181,True
+cd6d81bc-ece7-4f01-a8bf-007f03e12102,subscription_failed,cust_faf14ff0,leelahalder@example.net,2146584044,Yagnesh Shan,1772.09,INR,declined by issuer,sub_53f30073,,,,,2026-09-03T17:31:23.510189,True
+a230177c-4c4e-4ebd-8693-60cb0a429377,subscription_failed,cust_faf14ff0,leelahalder@example.net,2146584044,Yagnesh Shan,982.22,INR,declined by issuer,sub_186b2880,,,,,2026-09-03T17:31:23.510197,True
+83d98ab2-de44-4a68-a9c6-47eab740ddd5,subscription_failed,cust_1578d709,rajeshrichand@example.org,05060685361,Anjali Sengupta,1243.96,INR,bank declined mandate,sub_7a3a6e96,,,,,2026-09-03T17:31:23.510205,False
+98f14c01-05db-41d8-9142-af75b25958b5,subscription_failed,cust_6f962882,nilima55@example.net,+912567468071,Gavin Singhal,1624.54,INR,declined by issuer,sub_01bf9e73,,,,,2026-09-03T17:31:23.510213,True
+07c0e6e5-92cf-4ba6-b517-24aef5c424b0,checkout_abandoned,cust_f0ede303,indira19@example.net,+912731585149,Charan Mani,2137.92,INR,,,,plink_725d4259,details_step,,2026-09-03T17:31:23.510221,False
+0da7de08-8964-433b-a086-0ecd067b8ece,payment_failed,cust_74222167,ekta99@example.org,+912290147679,Nakul Pingle,30391.77,INR,bank_issuer_error,,,,,,2026-09-03T17:31:23.510226,True
+71796460-b8b1-4da9-bfc9-76ed0b9a72f7,payment_failed,cust_92070158,hthakkar@example.com,+913924075818,Triya Manda,19769.14,INR,bank_issuer_error,,,,,,2026-09-03T17:31:23.510232,True
+acc2775a-5e09-471a-98f8-39f4b1c2cd5b,payment_failed,cust_a9e27ba9,mdayal@example.net,+914865281685,Inaya Mukherjee,41448.81,INR,issuer declined transaction,,,,,,2026-09-03T17:31:23.510237,True
+2eb049bc-70cd-4736-8563-02254c77730a,payment_failed,cust_7a4c75d4,kborah@example.net,0229413186,Dhruv Rattan,1028.52,INR,insufficient_funds,,,,,,2026-09-03T17:31:23.510242,True
+97b0b145-2314-4912-8d62-f21aa51af98f,subscription_failed,cust_c73f6e1b,indirakanda@example.net,+919421047095,Watika Mangat,1870.35,INR,expired_card,sub_546252e7,,,,,2026-09-03T17:31:23.510250,False
+639dee68-339f-4035-9177-9203afd84585,invoice_overdue,cust_f7294951,uloyal@example.org,+914737996507,Veda Shroff,39188.62,INR,invoice_no_response,,inv_92a81713,,,,2026-09-03T17:31:23.510258,False
+abe37447-949c-417b-b604-961f8683ed11,subscription_failed,cust_dc5c0eed,harini14@example.com,+917048281489,Ishwar Yadav,2367.9,INR,declined by issuer,sub_5c0b9b10,,,,,2026-09-03T17:31:23.510266,True
+d1c5f62f-7e20-4ae7-81f6-02fbe5a08e74,checkout_abandoned,cust_b489d070,ibansal@example.net,5171870262,Libni Doshi,34100.2,INR,,,,plink_aaf407f7,payment_step,,2026-09-03T17:31:23.510276,True
+d64197fa-50e6-49d7-9e75-17cd59c35487,checkout_abandoned,cust_0640be0f,shahoeshi@example.net,3676320163,Yash Soman,15821.89,INR,,,,plink_28e333b6,payment_step,,2026-09-03T17:31:23.510284,True
+64944a04-8909-45fb-a35a-db9fb09b6d44,payment_failed,cust_a3917c99,rushil67@example.org,+916959440640,Zashil Shan,30651.61,INR,insufficient_funds,,,,,,2026-09-03T17:31:23.510289,True
+26046886-3508-4da2-832a-29fd6ae0aba4,payment_failed,cust_a319dcb4,handra@example.org,2805982620,Neel Sathe,28132.16,INR,bank network timeout,,,,,,2026-09-03T17:31:23.510294,False
+c0fef2bf-583a-4e74-88d5-ca6fe8e9f957,payment_failed,cust_372f871a,mandervidhi@example.net,4036900343,Hemani Sani,47842.94,INR,issuer declined transaction,,,,,,2026-09-03T17:31:23.510300,True
+2aa57b50-187b-4017-bdcd-d63c5f1bdb4e,payment_failed,cust_6f962882,nilima55@example.net,+912567468071,Gavin Singhal,33858.26,INR,bank_issuer_error,,,,,,2026-09-03T17:31:23.510305,False
+ed896030-900b-42d1-8268-fcf28621d8ec,payment_failed,cust_92070158,hthakkar@example.com,+913924075818,Triya Manda,47875.4,INR,bank_issuer_error,,,,,,2026-09-03T17:31:23.510311,True
+103741d9-4355-4df8-82a5-d190f5f90e54,invoice_overdue,cust_5a0cdd7c,vinayakanda@example.com,07065627298,Madhavi Saini,49116.56,INR,invoice_no_response,,inv_ec50ace4,,,,2026-09-03T17:31:23.510318,False
+b7c41472-9050-4728-8fea-b1c735cc5679,payment_failed,cust_816bcb9f,qushiseth@example.org,05766156545,Hardik Contractor,17570.4,INR,bank_issuer_error,,,,,,2026-09-03T17:31:23.510325,False
+ca4c1ebc-f020-447a-a1a6-3c592c4c559d,checkout_abandoned,cust_314d3441,rehaankalita@example.net,04989413435,Jagdish Wason,33895.79,INR,,,,plink_c5144d98,details_step,,2026-09-03T17:31:23.510333,True
+38184bf2-f671-469b-9696-1bf47d7f8798,invoice_overdue,cust_1dad09b2,dsachdev@example.org,5977034824,Yoshita Agarwal,40269.87,INR,broken_promise_to_pay,,inv_a38295d3,,,2026-09-01T17:31:23.510338,2026-09-03T17:31:23.510342,True
+07e17ae2-47c0-4458-8e3e-ce0a5c38e894,invoice_overdue,cust_1dad09b2,dsachdev@example.org,5977034824,Yoshita Agarwal,32867.41,INR,broken_promise_to_pay,,inv_5e175b66,,,2026-08-25T17:31:23.510347,2026-09-03T17:31:23.510351,False
+1f5a2e11-ae95-456d-bfc0-c9f6ae471349,invoice_overdue,cust_7cd0129d,ati94@example.net,+918313678377,Isha Kuruvilla,34869.33,INR,invoice_no_response,,inv_f5159494,,,,2026-09-03T17:31:23.510359,True
+65fb7451-4a50-46a8-a0b1-120a37fd0090,checkout_abandoned,cust_a9e27ba9,mdayal@example.net,+914865281685,Inaya Mukherjee,2728.12,INR,,,,plink_74797b61,payment_step,,2026-09-03T17:31:23.510367,False
+7dff2e57-1629-43fd-867d-d797af4cb3e8,checkout_abandoned,cust_978648f8,triyagopal@example.org,06537556464,Fiyaz Sangha,20782.41,INR,,,,plink_5fa5e0aa,payment_step,,2026-09-03T17:31:23.510375,False
+bbcddf75-8a4c-40fa-8917-5a1c9c63cc4a,checkout_abandoned,cust_a319dcb4,handra@example.org,2805982620,Neel Sathe,27607.56,INR,,,,plink_e9ad0e9b,details_step,,2026-09-03T17:31:23.510383,False
+b75d84f6-a84c-4cdd-b226-12b0efdcf0e9,payment_failed,cust_6bc4123e,gpathak@example.net,+917839084700,Devansh Soni,10132.91,INR,bank_issuer_error,,,,,,2026-09-03T17:31:23.510388,False
+a7726280-a7c5-46ee-b112-4053c4d6da0c,subscription_failed,cust_314d3441,rehaankalita@example.net,04989413435,Jagdish Wason,849.22,INR,declined by issuer,sub_cd4f8b2b,,,,,2026-09-03T17:31:23.510396,True
+ef71299a-2f55-4461-b044-1e0272bcddf9,invoice_overdue,cust_50c187fc,divyakala@example.net,06724238849,Amrita Bhatti,8918.23,INR,broken_promise_to_pay,,inv_c3093b6e,,,2026-09-02T17:31:23.510401,2026-09-03T17:31:23.510406,False
+b1c48a87-c275-45bc-9735-454f59d3c242,subscription_failed,cust_a23d4c2f,ayush05@example.org,05562386922,Sachi Ganesan,2653.88,INR,subscription_bank_declined,sub_98874bfe,,,,,2026-09-03T17:31:23.510414,False
+19b102df-a9c6-4800-b74d-aa74752703fa,checkout_abandoned,cust_8b8148f6,abeer26@example.com,02351161559,Thomas Sen,30218.59,INR,,,,plink_86879aa9,details_step,,2026-09-03T17:31:23.510422,False
+3e0a9743-bd4e-4f0e-974b-8e69387a3cb1,payment_failed,cust_314d3441,rehaankalita@example.net,04989413435,Jagdish Wason,32137.36,INR,insufficient funds in account,,,,,,2026-09-03T17:31:23.510427,True
+3642a8ab-f997-426d-9f90-be7a442fc92f,payment_failed,cust_f0ede303,indira19@example.net,+912731585149,Charan Mani,9802.01,INR,insufficient funds in account,,,,,,2026-09-03T17:31:23.510433,True
+645b87e9-20ab-4b52-94f0-8fab9e76aa60,subscription_failed,cust_30974b2b,anshbedi@example.com,+912931839335,Suhani Chand,2413.15,INR,subscription_bank_declined,sub_5c9deee0,,,,,2026-09-03T17:31:23.510441,True
+895d19a6-1aca-4c28-9997-dfabb45ec3cf,subscription_failed,cust_46510367,mukherjeetriya@example.com,+910541199867,Indira Tripathi,2514.57,INR,bank declined mandate,sub_1cb9b73a,,,,,2026-09-03T17:31:23.510449,True
+b4e0f5aa-29eb-446e-8a88-e90dedbd604a,payment_failed,cust_d85c16bd,anjalimore@example.com,00229612018,Amara Balakrishnan,20161.5,INR,insufficient funds in account,,,,,,2026-09-03T17:31:23.510454,True
+a445705a-faa1-4015-a9a5-7e4ba92e662f,payment_failed,cust_66d06371,fborah@example.com,2124998569,Hritik Swaminathan,12552.74,INR,insufficient funds in account,,,,,,2026-09-03T17:31:23.510461,True
+070d34ea-e9d4-452f-b816-bae2ef58c86d,subscription_failed,cust_aba4fc03,surinikita@example.com,+915377351585,Mohammed Sachdeva,231.02,INR,declined by issuer,sub_e723ada3,,,,,2026-09-03T17:31:23.510469,True
+5db5a85a-da4d-4dae-b729-76ec7a968171,subscription_failed,cust_faf14ff0,leelahalder@example.net,2146584044,Yagnesh Shan,646.21,INR,subscription_bank_declined,sub_89628f6e,,,,,2026-09-03T17:31:23.510478,True
+d9334769-5324-4a79-9143-7ca9bf004d7e,invoice_overdue,cust_f0ede303,indira19@example.net,+912731585149,Charan Mani,44412.51,INR,invoice_no_response,,inv_dabf984e,,,,2026-09-03T17:31:23.510485,False
+263e38a9-8bf0-43b2-882f-71f997cb926a,payment_failed,cust_b540b30e,masterjonathan@example.net,01094777520,Anusha Bath,11198.29,INR,bank network timeout,,,,,,2026-09-03T17:31:23.510491,False
+e9e6f6fa-3fcd-4007-8415-e6f3468facad,payment_failed,cust_bc2cbb0d,rajabalvan@example.com,+913754330365,Amara Dutta,49444.13,INR,issuer declined transaction,,,,,,2026-09-03T17:31:23.510497,True
+dce114a1-c4f7-4afa-afbf-a67048099281,subscription_failed,cust_6bc4123e,gpathak@example.net,+917839084700,Devansh Soni,2103.96,INR,card expired,sub_ae27d432,,,,,2026-09-03T17:31:23.510506,False
+dfb257ed-ae7e-4164-8f14-6fe982d5b49e,invoice_overdue,cust_2e25b5ee,upkaardevan@example.org,+914188805929,Harita Sunder,4277.14,INR,invoice_no_response,,inv_7d23d479,,,,2026-09-03T17:31:23.510513,True
+3f963de1-c4c1-46e4-8589-9d6318c1f0df,invoice_overdue,cust_969b6662,bhargavaveer@example.org,+915183473829,Thomas Amble,5788.0,INR,invoice_no_response,,inv_720b274b,,,,2026-09-03T17:31:23.510521,False
+32f856da-0693-4fd7-bf62-0e7d794a695b,subscription_failed,cust_b227462c,shankiaan@example.com,8895798687,Chandresh Krish,1436.15,INR,declined by issuer,sub_21c71aa3,,,,,2026-09-03T17:31:23.510529,True
+cf14a0c4-4599-4dac-8f91-59bab36cf533,subscription_failed,cust_dc8aee30,aradhanaverma@example.com,3471434558,Shivani Lad,2463.34,INR,bank declined mandate,sub_905c7bdd,,,,,2026-09-03T17:31:23.510537,False
+28db68c7-e07c-4675-8fa0-95b92d921681,checkout_abandoned,cust_30974b2b,anshbedi@example.com,+912931839335,Suhani Chand,20888.14,INR,,,,plink_ac3a812f,details_step,,2026-09-03T17:31:23.510545,True
+b0a46c8b-f7bb-4066-b6e9-874ee7605443,subscription_failed,cust_9e50aa42,lmishra@example.com,09909133412,Lajita Seshadri,1818.27,INR,card expired,sub_0592bfa5,,,,,2026-09-03T17:31:23.510553,False
+1b9b6480-d2ec-4b5a-aa96-6f1c5f31d138,payment_failed,cust_663f1c97,wchand@example.org,+912269166978,Theodore Devi,35079.17,INR,insufficient_funds,,,,,,2026-09-03T17:31:23.510558,True
+be4537e4-95be-4a29-8e64-8569d621abfc,invoice_overdue,cust_f264accc,ikakar@example.net,3465787133,Alka Wable,23709.15,INR,broken_promise_to_pay,,inv_00c59f30,,,2026-08-31T17:31:23.510563,2026-09-03T17:31:23.510568,True
+2847451b-15c5-4060-9f80-721c5c310864,payment_failed,cust_c73f6e1b,indirakanda@example.net,+919421047095,Watika Mangat,44588.41,INR,bank network timeout,,,,,,2026-09-03T17:31:23.510573,True
+fa29e6b0-b438-4740-90e7-6eee9dce8c9d,checkout_abandoned,cust_b489d070,ibansal@example.net,5171870262,Libni Doshi,48214.39,INR,,,,plink_12b2102d,payment_step,,2026-09-03T17:31:23.510581,False
+805fdc4c-6b8c-44aa-99a9-a3ee33fda89b,checkout_abandoned,cust_1dad09b2,dsachdev@example.org,5977034824,Yoshita Agarwal,49643.77,INR,,,,plink_b34c6c73,payment_step,,2026-09-03T17:31:23.510589,True
+1700915d-304a-42cb-9ae8-f93c2626ebec,invoice_overdue,cust_5a0cdd7c,vinayakanda@example.com,07065627298,Madhavi Saini,37857.73,INR,broken_promise_to_pay,,inv_0f6ce9bf,,,2026-08-25T17:31:23.510594,2026-09-03T17:31:23.510598,False
+38e3083b-fbc7-45dd-b444-fe20543d194a,payment_failed,cust_e8dd5e5a,saideo@example.net,08842474517,Eta Sagar,41203.35,INR,bank_issuer_error,,,,,,2026-09-03T17:31:23.510603,True
+8fec8ea9-990e-4734-ba0b-94bdd4f8e2b4,checkout_abandoned,cust_bc2cbb0d,rajabalvan@example.com,+913754330365,Amara Dutta,46883.04,INR,,,,plink_fc737d92,payment_step,,2026-09-03T17:31:23.510611,False
+7d9e56bd-4c26-4ddc-8dfa-8fa34b859442,invoice_overdue,cust_50c187fc,divyakala@example.net,06724238849,Amrita Bhatti,21078.18,INR,invoice_no_response,,inv_497ec6d1,,,,2026-09-03T17:31:23.510619,False
+84229836-4595-4d98-a9a3-ea2fec4f82dc,checkout_abandoned,cust_bacfb3d0,memonjanaki@example.net,+911034131647,Jeet Radhakrishnan,3551.09,INR,,,,plink_22ab7752,details_step,,2026-09-03T17:31:23.510628,True
+e606b8fe-74b0-476f-86ec-8d21fb68559f,subscription_failed,cust_2e25b5ee,upkaardevan@example.org,+914188805929,Harita Sunder,1325.34,INR,expired_card,sub_bab2b77d,,,,,2026-09-03T17:31:23.510636,True
+09712915-160a-477c-8da6-504cd9fa274a,payment_failed,cust_978648f8,triyagopal@example.org,06537556464,Fiyaz Sangha,37768.41,INR,insufficient funds in account,,,,,,2026-09-03T17:31:23.510641,False
+094f2094-d7a8-491e-9e39-9840d1d226a0,invoice_overdue,cust_f0ede303,indira19@example.net,+912731585149,Charan Mani,11861.24,INR,invoice_no_response,,inv_5fdcabbf,,,,2026-09-03T17:31:23.510649,False
+23ac8807-dfba-4a50-8907-9fa320d0366a,subscription_failed,cust_cab4923b,vamakshi82@example.org,01518203778,Shivani Guha,2652.52,INR,subscription_bank_declined,sub_72d35458,,,,,2026-09-03T17:31:23.510657,True
+2caceab6-b4dc-458f-afb2-5ee8881c9d01,checkout_abandoned,cust_74222167,ekta99@example.org,+912290147679,Nakul Pingle,15164.95,INR,,,,plink_60a399d4,payment_step,,2026-09-03T17:31:23.510665,True
+c4247e53-9ba0-4e4b-9936-2456886c0674,subscription_failed,cust_e8dd5e5a,saideo@example.net,08842474517,Eta Sagar,2399.25,INR,bank declined mandate,sub_f6d22a7b,,,,,2026-09-03T17:31:23.510673,True
+755efe69-84b5-42ca-acca-d1f3bcc1b6b2,subscription_failed,cust_1337739e,ssinghal@example.org,+914471349361,Aarnav Rege,2311.37,INR,card expired,sub_220b9ea9,,,,,2026-09-03T17:31:23.510681,True
+479e86c1-fb5c-4a2c-84df-79b181159ba1,checkout_abandoned,cust_6bc4123e,gpathak@example.net,+917839084700,Devansh Soni,11422.16,INR,,,,plink_1e5ebe54,payment_step,,2026-09-03T17:31:23.510689,False
+9c6308db-419d-47a5-8abd-7ce1e24f3cdf,invoice_overdue,cust_e68933a9,zashilghosh@example.org,0205395024,Aradhana Dhillon,28206.82,INR,invoice_no_response,,inv_649f7d88,,,,2026-09-03T17:31:23.510696,False
+c9587a92-5fa7-4fe4-bc87-6e772cc66b9f,payment_failed,cust_a319dcb4,handra@example.org,2805982620,Neel Sathe,12898.78,INR,insufficient_funds,,,,,,2026-09-03T17:31:23.510702,True
+a70541e1-d49a-4fef-859c-8e902e861d89,invoice_overdue,cust_aba4fc03,surinikita@example.com,+915377351585,Mohammed Sachdeva,4804.71,INR,broken_promise_to_pay,,inv_fa8dae42,,,2026-08-29T17:31:23.510706,2026-09-03T17:31:23.510711,False
+7ed86eb3-e6ce-483e-8863-8385e9e79854,subscription_failed,cust_b489d070,ibansal@example.net,5171870262,Libni Doshi,2452.02,INR,card expired,sub_c194f97f,,,,,2026-09-03T17:31:23.510719,False
