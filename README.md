@@ -1,3 +1,4 @@
+<img width="1675" height="819" alt="Screenshot 2026-09-04 at 1 26 25 AM" src="https://github.com/user-attachments/assets/c4563045-ea57-48e0-9cb1-e0c3158eb2de" />
 <img width="1677" height="830" alt="Screenshot 2026-09-04 at 1 25 22 AM" src="https://github.com/user-attachments/assets/720b0caf-3166-47de-a7b4-8a3ae7739ffc" />
 # AI Revenue Recovery Agent
 
