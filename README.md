@@ -137,11 +137,6 @@ live ingestion adapter instead of the synthetic generator.
 ## Dashboard
 <img width="1677" height="830" alt="Screenshot 2026-09-04 at 1 25 22 AM" src="https://github.com/user-attachments/assets/720b0caf-3166-47de-a7b4-8a3ae7739ffc" />
 
-
-*(Add a real screenshot or short GIF of the running Streamlit dashboard here
-before submitting — this is one of the highest-value things a reviewer sees
-in the first 5 seconds.)*
-
 ---
 
 ## 5-Minute Demo Video Script
