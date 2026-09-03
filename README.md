@@ -139,35 +139,6 @@ live ingestion adapter instead of the synthetic generator.
 
 ---
 
-## 5-Minute Demo Video Script
-
-**0:00–0:30 | The Problem**
-"Businesses lose millions silently through three leaks: checkout drops,
-failed mandate renewals, and overdue invoices. No one closes the loop from
-detection to recovery. Today, we're demoing our AI Revenue Recovery Agent
-that does exactly this, autonomously."
-
-**0:30–2:30 | Live Batch Run**
-"I'll run the agent on a batch of 400 simulated test-mode events. It
-ingests the events, runs the detection engine to classify root causes,
-applies our deterministic policy, enforces hard stopping limits (max 3
-retries), and executes simulated recovery actions."
-
-**2:30–4:00 | Dashboard Walkthrough**
-"We processed 400 events with a simulated ₹7M at risk. The agent recovered
-a simulated ₹2M — a 25% recovery rate, against an effective 0% baseline
-since these leaks are normally unmonitored. This chart breaks recovery down
-by root cause. Below it is our immutable audit trail."
-
-**4:00–5:00 | Case Study & Failure Story**
-"Two real cases: a bank-error failure was retried and recovered
-automatically; an overdue invoice hit our 3-attempt limit and was cleanly
-escalated to a human instead of being spammed. And a quick story on what
-broke during development: null drop-off stages caused overly aggressive
-messaging early on — fixed by defaulting unknown stages to our gentlest
-reminder tier."
-
----
 
 ## Author
 
